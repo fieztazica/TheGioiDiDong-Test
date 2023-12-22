@@ -1,0 +1,21 @@
+{
+  "id": "eaaf2b5b-c673-47e7-a450-38e4a6cb0de2",
+  "version": "2.0",
+  "name": "TheGioiDiDongTests",
+  "url": "",
+  "tests": [{
+    "id": "01d0335c-b71d-4960-ac3a-21264edd6899",
+    "name": "Untitled",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "493ce2f3-0f58-4e24-9aa2-48776da49361",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["01d0335c-b71d-4960-ac3a-21264edd6899"]
+  }],
+  "urls": [],
+  "plugins": []
+}
