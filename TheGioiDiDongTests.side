@@ -5,8 +5,323 @@
   "url": "https://thegioididong.com",
   "tests": [{
     "id": "01d0335c-b71d-4960-ac3a-21264edd6899",
-    "name": "Untitled",
-    "commands": []
+    "name": "Test Case 4",
+    "commands": [{
+      "id": "0320d104-6d79-4f56-b1c9-f8ff5303cd3e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thegioididong.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "025e9e87-0533-40b6-bce5-e077b88f6549",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x1024",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2d3c159-fe8a-4b84-9c11-117e3c57877d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Xem bản mobile",
+      "targets": [
+        ["linkText=Xem bản mobile", "linkText"],
+        ["css=.linkversion", "css:finder"],
+        ["xpath=//a[contains(text(),'Xem bản mobile')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.thegioididong.com/?sclient=mobile')]", "xpath:href"],
+        ["xpath=//section/div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Xem bản mobile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31cbc6cd-ada7-48ce-bb3c-f1c928f40526",
+      "comment": "",
+      "command": "click",
+      "target": "css=.txt-open",
+      "targets": [
+        ["css=.txt-open", "css:finder"],
+        ["xpath=//div[6]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Các thông tin khác')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66986c70-c548-4d41-afa0-f499eb0c8946",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=todesktop",
+      "targets": [
+        ["id=todesktop", "id"],
+        ["linkText=• Xem bản desktop", "linkText"],
+        ["css=#todesktop", "css:finder"],
+        ["xpath=//a[contains(text(),'• Xem bản desktop')]", "xpath:link"],
+        ["xpath=//a[@id='todesktop']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'https://www.thegioididong.com/?sclient=full')]", "xpath:href"],
+        ["xpath=//ul[2]/li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'• Xem bản desktop')]", "xpath:innerText"]
+      ],
+      "value": "• Xem bản desktop"
+    }, {
+      "id": "0b7a5e2b-9625-4ad9-9cc7-97ee334318f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=todesktop",
+      "targets": [
+        ["id=todesktop", "id"],
+        ["linkText=• Xem bản desktop", "linkText"],
+        ["css=#todesktop", "css:finder"],
+        ["xpath=//a[contains(text(),'• Xem bản desktop')]", "xpath:link"],
+        ["xpath=//a[@id='todesktop']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'https://www.thegioididong.com/?sclient=full')]", "xpath:href"],
+        ["xpath=//ul[2]/li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'• Xem bản desktop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "269f2eb8-eb82-4871-aa9f-0b716181fa93",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Xem bản mobile",
+      "targets": [
+        ["linkText=Xem bản mobile", "linkText"],
+        ["css=.linkversion", "css:finder"],
+        ["xpath=//a[contains(text(),'Xem bản mobile')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.thegioididong.com/?sclient=mobile')]", "xpath:href"],
+        ["xpath=//section/div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Xem bản mobile')]", "xpath:innerText"]
+      ],
+      "value": "Xem bản mobile"
+    }, {
+      "id": "aa4b11ba-ac6f-4460-a8f9-472377f62f13",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "485bc991-3c10-4b52-98d4-e18382a434b8",
+    "name": "Test Case 5",
+    "commands": [{
+      "id": "9c9d2ff3-79fa-4ea7-8ca9-a8a287375223",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thegioididong.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0df99e6-8f21-4bfd-9c23-441edc009549",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x1024",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8813fbf-d95d-4862-bdbd-e7ef6a01dc35",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chính sách bảo hành",
+      "targets": [
+        ["linkText=Chính sách bảo hành", "linkText"],
+        ["css=.footer__col:nth-child(1) li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Chính sách bảo hành')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/bao-hanh')]", "xpath:href"],
+        ["xpath=//footer/section/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chính sách bảo hành')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d98d8d2-b039-4fa4-936c-3e2fc801bc8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .iconwar-opt",
+      "targets": [
+        ["css=li:nth-child(2) > .iconwar-opt", "css:finder"],
+        ["xpath=//li[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c29853b9-1833-4e6a-9db8-9239e76fd3ec",
+      "comment": "",
+      "command": "type",
+      "target": "name=keyword",
+      "targets": [
+        ["name=keyword", "name"],
+        ["css=#frmSearWarr > input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='keyword']", "xpath:attributes"],
+        ["xpath=//form[@id='frmSearWarr']/input[2]", "xpath:idRelative"],
+        ["xpath=//form/input[2]", "xpath:position"]
+      ],
+      "value": "865504062164988"
+    }, {
+      "id": "b7477ff0-ab04-4efa-9d90-296aa337f7cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitSearch",
+      "targets": [
+        ["id=submitSearch", "id"],
+        ["css=#submitSearch", "css:finder"],
+        ["xpath=//button[@id='submitSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='frmSearWarr']/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54c669a1-766d-41dc-afa3-df6778aa5a9e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h3:nth-child(3)",
+      "targets": [
+        ["css=h3:nth-child(3)", "css:finder"],
+        ["xpath=//li/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,' Xiaomi Redmi Note 11 (4+64G) Xám')]", "xpath:innerText"]
+      ],
+      "value": "Xiaomi Redmi Note 11 (4+64G) Xám"
+    }, {
+      "id": "43d5d7a4-6243-4b8a-8029-e72c94d085e2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "116ca8bc-ea73-498f-8de8-a0a92d316069",
+    "name": "Test Case 6",
+    "commands": [{
+      "id": "c1b776c3-3c71-4524-8a9d-fc2219db6198",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thegioididong.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3093dfa-d9f6-4d79-ba0d-68aff7484d57",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x1024",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a42af3a4-6253-4eb2-b6ef-7eba2d528ea2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Điện thoại')]",
+      "targets": [
+        ["css=.main-menu > li:nth-child(1) span", "css:finder"],
+        ["xpath=//li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Điện thoại')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aa516ee-9615-4d8a-84de-59790f6707b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.warpper-price-outside > .filter-item__title > span",
+      "targets": [
+        ["css=.warpper-price-outside > .filter-item__title > span", "css:finder"],
+        ["xpath=//div[4]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Giá')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e7a5b5e-80c6-4735-90b2-1a118fc63d7c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Trên 20 triệu",
+      "targets": [
+        ["linkText=Trên 20 triệu", "linkText"],
+        ["css=.price:nth-child(1) > .c-btnbox:nth-child(6)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Trên 20 triệu')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'dtdd?p=tren-20-trieu')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/div/a[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fee7cc5f-5ed4-4c5b-bcd1-f7b0fd57afeb",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=//div[2]/div[3]/a[2]/b",
+      "targets": [
+        ["linkText=Xem 19 kết quả", "linkText"],
+        ["css=.warpper-price-outside .btn-filter-readmore", "css:finder"],
+        ["xpath=//a[contains(@href, 'javascript:filterPros();')]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/a[2]", "xpath:position"]
+      ],
+      "value": "buttonAmount"
+    }, {
+      "id": "65efc6f3-f563-4b2b-bf7f-80400d9ac14d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.warpper-price-outside .btn-filter-readmore",
+      "targets": [
+        ["linkText=Xem 32 kết quả", "linkText"],
+        ["css=.warpper-price-outside .btn-filter-readmore", "css:finder"],
+        ["xpath=//a[contains(@href, 'javascript:filterPros();')]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cc11d51-d3fc-4d2f-86b8-540a7be3ed20",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//ul[@class='listproduct']/li",
+      "targets": [],
+      "value": "displayAmount"
+    }, {
+      "id": "3aab8ea0-feea-4919-846f-651bf908900a",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.remain",
+      "targets": [
+        ["css=.remain", "css:finder"],
+        ["xpath=//section[@id='categoryPage']/div[3]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/a/span", "xpath:position"]
+      ],
+      "value": "remainAmount"
+    }, {
+      "id": "e985d899-401e-451b-adf0-179451cd0964",
+      "comment": "",
+      "command": "echo",
+      "target": "${buttonAmount}, ${displayAmount}, ${remainAmount}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d8591ff-e9b9-442b-a0e9-87ce6959f8a8",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseInt(${displayAmount}) + parseInt(${remainAmount})",
+      "targets": [],
+      "value": "sum"
+    }, {
+      "id": "3f62a7be-0f0a-4f10-a4e4-2a0bddb83965",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseInt(${buttonAmount}) == ${sum}",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "c0692868-a5b4-4180-86e5-056b3478a1c2",
+      "comment": "",
+      "command": "echo",
+      "target": "${result}, ${sum}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0cb8908a-5f92-49ce-b87e-9451a3b3b98e",
+      "comment": "",
+      "command": "verify",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }, {
+      "id": "fbf7713e-d147-420d-aee8-e5e0d429b624",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "493ce2f3-0f58-4e24-9aa2-48776da49361",
@@ -16,6 +331,6 @@
     "timeout": 300,
     "tests": ["01d0335c-b71d-4960-ac3a-21264edd6899"]
   }],
-  "urls": [],
+  "urls": ["https://thegioididong.com/"],
   "plugins": []
 }
