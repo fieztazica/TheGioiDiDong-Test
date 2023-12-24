@@ -5,7 +5,7 @@
   "url": "https://www.thegioididong.com",
   "tests": [{
     "id": "01d0335c-b71d-4960-ac3a-21264edd6899",
-    "name": "TimSanPham",
+    "name": "Test Case 1",
     "commands": [{
       "id": "806d496b-8793-4750-9a3f-7fd0252110dc",
       "comment": "",
@@ -229,7 +229,7 @@
     }]
   }, {
     "id": "619f8a98-ca55-434f-951a-0cb6160b6f9e",
-    "name": "ThemVaoGioHang",
+    "name": "Test Case 2",
     "commands": [{
       "id": "b471fcb5-5264-41cb-b64e-a8b20ff7806c",
       "comment": "",
@@ -384,7 +384,7 @@
     }]
   }, {
     "id": "9c4655ce-12db-4123-86d0-9311551da4f8",
-    "name": "LocSanPham",
+    "name": "Test Case 8",
     "commands": [{
       "id": "c0986391-8bca-4a4c-b342-34dd26296edd",
       "comment": "",
@@ -649,7 +649,7 @@
     }]
   }, {
     "id": "ffc885c0-d025-4c9a-9f9e-5f9a98138846",
-    "name": "KiemTraDanhGia",
+    "name": "Test Case 10",
     "commands": [{
       "id": "9f15371a-eca9-498d-82e8-b29f0cf4076d",
       "comment": "",
