@@ -547,6 +547,230 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "1680fa67-afee-4bcb-a4c0-95f071e43c9f",
+    "name": "Test Case 11",
+    "commands": [{
+      "id": "77fca03f-1634-49f2-a293-c4b5af1ddea5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thegioididong.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f9c6d2c-429a-4bbe-bb3d-22bbfb2f5307",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x1024",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b301d26-3e72-4ac5-94d6-dd6d5e04fe09",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Sim, Thẻ cào')]",
+      "targets": [
+        ["css=.show-left:nth-child(9) span", "css:finder"],
+        ["xpath=//li[9]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sim, Thẻ cào')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "380a1923-3a6b-4f32-8e35-1ed23a985c1b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='Sim số đẹp']",
+      "targets": [
+        ["css=.box-menu > .active img", "css:finder"],
+        ["xpath=//img[@alt='Sim số đẹp']", "xpath:img"],
+        ["xpath=//li/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "603da1b4-078e-4c6b-b327-e65940e3beb6",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://www.thegioididong.com/sim-so-dep/viettel-sim-nghe-goi')]",
+      "targets": [
+        ["css=.buy-sim:nth-child(6) > .chnumber", "css:finder"],
+        ["xpath=(//a[contains(text(),'Chọn số')])[6]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.thegioididong.com/sim-so-dep/viettel-sim-nghe-goi')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb0a8e17-324d-4d9a-9d3b-d2b6ac2a0085",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Loại số",
+      "targets": [
+        ["linkText=Loại số", "linkText"],
+        ["css=.filter-name", "css:finder"],
+        ["xpath=//a[contains(text(),'Loại số')]", "xpath:link"],
+        ["xpath=//div[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Loại số')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7021897-ee0d-437f-ac0f-3b87a69415d9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tứ Quý giữa",
+      "targets": [
+        ["linkText=Số Tiến", "linkText"],
+        ["css=.type-sim:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Số Tiến')]", "xpath:link"],
+        ["xpath=//div[6]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Số Tiến')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f967171b-b285-41d3-b96e-d92dd759bce7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-filter-readmore",
+      "targets": [
+        ["linkText=Xem 482 kết quả", "linkText"],
+        ["css=.btn-filter-readmore", "css:finder"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[67]", "xpath:href"],
+        ["xpath=//div[2]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Xem 482 kết quả')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a45b373-e819-44e5-9446-e64844f2765b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return [...document.getElementsByClassName('listsim').item(0).children].map(li => li.children.item(0).innerText.split('.')[1].split('')).every(a => a.every((v,_,ar) => v == ar[0]))",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "da44004a-1286-4c44-8b70-fa37b180b036",
+      "comment": "",
+      "command": "verify",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }, {
+      "id": "44c0068e-7a25-48dc-8707-0bfabf4de61d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "03594b4e-470b-4de2-8b5e-37252a089d85",
+    "name": "Test Case 12",
+    "commands": [{
+      "id": "e6f5ce08-4e7a-4b7e-9a70-af46475a96a8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thegioididong.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cfd82cc-15d1-4737-b75c-d12dfb3ac202",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x1024",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24005ebd-2f22-4edc-8544-09a84f24d1d3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Sim, Thẻ cào')]",
+      "targets": [
+        ["css=.show-left:nth-child(9) span", "css:finder"],
+        ["xpath=//li[9]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sim, Thẻ cào')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0ffa891-4811-4cfb-ab07-e7507f985cd4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='Sim số đẹp']",
+      "targets": [
+        ["css=.box-menu > .active img", "css:finder"],
+        ["xpath=//img[@alt='Sim số đẹp']", "xpath:img"],
+        ["xpath=//li/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2ce5cfe-5b49-4d95-b349-143a2361cc74",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://www.thegioididong.com/sim-so-dep/viettel-sim-nghe-goi')]",
+      "targets": [
+        ["css=.buy-sim:nth-child(6) > .chnumber", "css:finder"],
+        ["xpath=(//a[contains(text(),'Chọn số')])[6]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.thegioididong.com/sim-so-dep/viettel-sim-nghe-goi')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33833e03-fa01-4de0-a304-c96fa235172c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Loại số",
+      "targets": [
+        ["linkText=Loại số", "linkText"],
+        ["css=.filter-name", "css:finder"],
+        ["xpath=//a[contains(text(),'Loại số')]", "xpath:link"],
+        ["xpath=//div[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Loại số')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f45c071a-3627-401e-a0b3-ef05dfbc1c28",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Năm Sinh",
+      "targets": [
+        ["linkText=Số Tiến", "linkText"],
+        ["css=.type-sim:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Số Tiến')]", "xpath:link"],
+        ["xpath=//div[6]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Số Tiến')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5fa0ea0-2562-47a9-8416-615661737be2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-filter-readmore",
+      "targets": [
+        ["linkText=Xem 482 kết quả", "linkText"],
+        ["css=.btn-filter-readmore", "css:finder"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[67]", "xpath:href"],
+        ["xpath=//div[2]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Xem 482 kết quả')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcebb952-658b-450c-91ae-a8fa0b4302fe",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return [...document.getElementsByClassName('listsim').item(0).children].map(li => parseInt(li.children.item(0).innerText.split('.')[1])).every(n => n > 1920 && n < new Date().getFullYear())",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "50d8085a-17ad-460c-bff3-08c3b88c1704",
+      "comment": "",
+      "command": "verify",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }, {
+      "id": "84d923e7-20fa-45fa-8b7f-5972dea9bb95",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "493ce2f3-0f58-4e24-9aa2-48776da49361",
