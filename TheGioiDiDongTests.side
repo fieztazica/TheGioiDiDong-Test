@@ -91,6 +91,13 @@
       "targets": [],
       "value": "dem"
     }, {
+      "id": "e9c4593b-10ee-4251-9989-b7988e63090b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1==1",
+      "targets": [],
+      "value": "flag"
+    }, {
       "id": "2505b44f-c332-4fcd-8d4c-18395e82c9a3",
       "comment": "",
       "command": "echo",
@@ -122,7 +129,7 @@
       "id": "abedb065-a6a3-43bd-bb54-0cd740572cbf",
       "comment": "",
       "command": "if",
-      "target": "${ketqua} > ${nextKetqua}",
+      "target": "${ketqua} >= ${nextKetqua}",
       "targets": [],
       "value": ""
     }, {
@@ -139,6 +146,20 @@
       "target": "true",
       "targets": [],
       "value": "confirm"
+    }, {
+      "id": "60971ad6-8beb-45c3-a4a6-ff97a9844117",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0cbf1d7-181d-4544-aab8-36ba12a61ad5",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return !${flag}",
+      "targets": [],
+      "value": "flag"
     }, {
       "id": "6eaf2272-a025-4ece-9374-5903cdda3c15",
       "comment": "",
@@ -174,6 +195,13 @@
       "target": "",
       "targets": [],
       "value": ""
+    }, {
+      "id": "58b165b1-4d36-4d40-91f7-984a164192a8",
+      "comment": "",
+      "command": "verify",
+      "target": "flag",
+      "targets": [],
+      "value": "true"
     }, {
       "id": "9e9f3577-59d8-4c97-be9b-6ca23bcd1460",
       "comment": "",
