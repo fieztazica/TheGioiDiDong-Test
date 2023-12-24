@@ -2,11 +2,384 @@
   "id": "eaaf2b5b-c673-47e7-a450-38e4a6cb0de2",
   "version": "2.0",
   "name": "TheGioiDiDongTests",
-  "url": "https://thegioididong.com",
+  "url": "https://www.thegioididong.com",
   "tests": [{
-    "id": "01d0335c-b71d-4960-ac3a-21264edd6899",
-    "name": "Untitled",
-    "commands": []
+    "id": "ddf1a787-2c1a-43d8-b211-25e42a5dcc2c",
+    "name": "Test Case 3",
+    "commands": [{
+      "id": "2d8883db-6a83-43e8-bb1b-672a98f08374",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5cc07e2-65b6-4273-bde2-dc2054cad8f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) i > img",
+      "targets": [
+        ["css=li:nth-child(1) i > img", "css:finder"],
+        ["xpath=//img[@alt='Điện thoại']", "xpath:img"],
+        ["xpath=//i/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7996955f-c24f-4e95-83cc-bbd4f08403e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.q-manu > .box-quicklink__item:nth-child(2)",
+      "targets": [
+        ["css=.q-manu > .box-quicklink__item:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(@href, '/dtdd-apple-iphone')])[2]", "xpath:href"],
+        ["xpath=//section/div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0c6749b-cf5a-418e-84fa-ed1b112dad9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sort-show",
+      "targets": [
+        ["css=.sort-show", "css:finder"],
+        ["xpath=//section[@id='categoryPage']/div/div[2]/p/span", "xpath:idRelative"],
+        ["xpath=//div[2]/p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Nổi bật')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37508c4e-9fde-4d9e-846d-c7b283f572e3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Giá cao đến thấp",
+      "targets": [
+        ["linkText=Giá cao đến thấp", "linkText"],
+        ["css=p:nth-child(3) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Giá cao đến thấp')]", "xpath:link"],
+        ["xpath=//section[@id='categoryPage']/div/div[2]/div/p[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[17]", "xpath:href"],
+        ["xpath=//p[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Giá cao đến thấp')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff9735a3-8e0e-491a-9f7f-45978823bcda",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=/html/body/div[6]/section/div[3]/ul/li",
+      "targets": [],
+      "value": "count"
+    }, {
+      "id": "af74d1ad-c5fe-4a77-9b03-9e44a8d763fc",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "soluong"
+    }, {
+      "id": "1f4f58e4-18b9-4cda-8fa4-5aa213984a27",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 2",
+      "targets": [],
+      "value": "soluong2"
+    }, {
+      "id": "ebd1e03d-09ec-4b62-a931-5eb5c5f111af",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 0",
+      "targets": [],
+      "value": "dem"
+    }, {
+      "id": "2505b44f-c332-4fcd-8d4c-18395e82c9a3",
+      "comment": "",
+      "command": "echo",
+      "target": "${soluong}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "862e147c-8cc3-4cf1-8702-92c17e6fb9f3",
+      "comment": "",
+      "command": "while",
+      "target": "${soluong} < ${count} && ${soluong2} <= ${count}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66a9de14-f157-4bf1-be73-437cf218fbc6",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=/html/body/div[6]/section/div[3]/ul/li[${soluong}]/a[1]/strong",
+      "targets": [],
+      "value": "ketqua"
+    }, {
+      "id": "b9037d6c-ffa5-42eb-ba4c-31b70caac1fd",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=/html/body/div[6]/section/div[3]/ul/li[${soluong2}]/a[1]/strong",
+      "targets": [],
+      "value": "nextKetqua"
+    }, {
+      "id": "abedb065-a6a3-43bd-bb54-0cd740572cbf",
+      "comment": "",
+      "command": "if",
+      "target": "${ketqua} > ${nextKetqua}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb07e7df-692f-4023-99c7-2130faadbaf3",
+      "comment": "",
+      "command": "echo",
+      "target": "return ${ketqua} > ${nextKetqua}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d5ea5af-2fff-45cc-8ab5-6a2a6c475843",
+      "comment": "",
+      "command": "echo",
+      "target": "true",
+      "targets": [],
+      "value": "confirm"
+    }, {
+      "id": "6eaf2272-a025-4ece-9374-5903cdda3c15",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2392bdc-4357-49e4-ab58-3dd8614fc3a3",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseInt(${ketqua}.replace(/[^\\d]+/g, ''))",
+      "targets": [],
+      "value": "ketqua"
+    }, {
+      "id": "e040be16-50d4-4d66-a995-a1d5b6015623",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${soluong2}+1",
+      "targets": [],
+      "value": "soluong2"
+    }, {
+      "id": "7823c822-abdb-4f9b-ae0d-70deec873903",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${soluong}+1",
+      "targets": [],
+      "value": "soluong"
+    }, {
+      "id": "d4f85299-9ca4-42ef-ae52-f1288933cd75",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e9f3577-59d8-4c97-be9b-6ca23bcd1460",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e1e15fa0-811b-4cc4-813b-02df05a77975",
+    "name": "Test Case 9",
+    "commands": [{
+      "id": "75a86ab7-5cf0-46a0-9309-760c2be0229e",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c27ca04f-f7f5-4ff6-b3d2-c87a36f0b028",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-slide:nth-child(5) > div:nth-child(2) .ls-is-cached",
+      "targets": [
+        ["css=.slick-slide:nth-child(5) > div:nth-child(2) .ls-is-cached", "css:finder"],
+        ["xpath=//img[@alt='Chuột Bluetooth Silent Logitech M240']", "xpath:img"],
+        ["xpath=//div[@id='flashsale']/div[3]/div/div/div/div[5]/div[2]/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30b09c75-b665-4b08-a247-33a4bc45b6f1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,116)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2cf322e-ba0e-40e1-b621-5d19447efee2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MUA NGAY GIÁ RẺ QUÁ 320.000₫",
+      "targets": [
+        ["linkText=MUA NGAY GIÁ RẺ QUÁ 320.000₫", "linkText"],
+        ["css=.one", "css:finder"],
+        ["xpath=//a[contains(text(),'MUA NGAY GIÁ RẺ QUÁ 320.000₫')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[2]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MUA NGAY GIÁ RẺ QUÁ 320.000₫')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e63c640d-e583-494d-9e40-26140993cf0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ordered:nth-child(9)",
+      "targets": [
+        ["css=.ordered:nth-child(9)", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "946acda3-1cf8-4fac-ad7e-fe03f7d0dcc8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mua thêm sản phẩm khác",
+      "targets": [
+        ["linkText=Mua thêm sản phẩm khác", "linkText"],
+        ["css=.buymore", "css:finder"],
+        ["xpath=//a[contains(text(),'Mua thêm sản phẩm khác')]", "xpath:link"],
+        ["xpath=//div[@id='app']/section/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.thegioididong.com')])[3]", "xpath:href"],
+        ["xpath=//section/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mua thêm sản phẩm khác')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c1bb56a-83e9-48ed-9ac0-21d67175d86c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,905)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "acabc84a-5c31-4b97-8672-be2ae0f80eb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-slide:nth-child(4) > div:nth-child(1) .ls-is-cached",
+      "targets": [
+        ["css=.slick-slide:nth-child(4) > div:nth-child(1) .ls-is-cached", "css:finder"],
+        ["xpath=//img[@alt='OPPO Reno8 T']", "xpath:img"],
+        ["xpath=//div[@id='flashsale']/div[3]/div/div/div/div[4]/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a228ba8a-d129-4fab-8ac2-b44f5b96b04b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,151)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab91cb0f-edf5-465d-a255-4c79140bed4c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MUA NGAY GIÁ RẺ QUÁ 6.990.000₫",
+      "targets": [
+        ["linkText=MUA NGAY GIÁ RẺ QUÁ 6.990.000₫", "linkText"],
+        ["css=.red", "css:finder"],
+        ["xpath=//a[contains(text(),'MUA NGAY GIÁ RẺ QUÁ 6.990.000₫')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[2]/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MUA NGAY GIÁ RẺ QUÁ 6.990.000₫')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3d3cd63-0c1b-4f99-b16a-c966e08711ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ordered:nth-child(9)",
+      "targets": [
+        ["css=.ordered:nth-child(9)", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c530c998-f7b0-4918-8f62-a1e9709c172b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1417112-4ebf-4287-a8b2-af9c4cc2142f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__cart",
+      "targets": [
+        ["css=.header__cart", "css:finder"],
+        ["xpath=//a[contains(@href, '/cart')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "625cbee1-3d96-4745-8568-337053262ca6",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=/html/body/div[6]/section/div[2]/ul/li",
+      "targets": [],
+      "value": "count"
+    }, {
+      "id": "b9daa67d-0b5f-4295-8ed3-1a3fe3a4a315",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 0",
+      "targets": [],
+      "value": "soluong"
+    }, {
+      "id": "0e61a8e9-ed67-462f-9ce0-86be9488758f",
+      "comment": "",
+      "command": "while",
+      "target": " ${count} > ${soluong}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2104e85-a3c8-41ca-a145-4afc7a97c7c2",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${soluong}+1",
+      "targets": [],
+      "value": "soluong"
+    }, {
+      "id": "61a6ca74-765d-48ce-a3c6-8bbd53e6684a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-item:nth-child(1) button",
+      "targets": [
+        ["css=.product-item:nth-child(1) button", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/ul/li/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Xóa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aa64d60-03a2-4bbe-a6db-f43c9f66e1e7",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da9b4daf-78db-4667-bbbf-839bcf0ac2e4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.cartempty > span",
+      "targets": [
+        ["css=.cartempty > span", "css:finder"],
+        ["xpath=//div[@id='app']/section/div/span", "xpath:idRelative"],
+        ["xpath=//section/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Không có sản phẩm nào trong giỏ hàng')]", "xpath:innerText"]
+      ],
+      "value": "Không có sản phẩm nào trong giỏ hàng"
+    }]
   }],
   "suites": [{
     "id": "493ce2f3-0f58-4e24-9aa2-48776da49361",
@@ -14,8 +387,8 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["01d0335c-b71d-4960-ac3a-21264edd6899"]
+    "tests": []
   }],
-  "urls": [],
+  "urls": ["https://www.thegioididong.com/"],
   "plugins": []
 }
