@@ -322,6 +322,231 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "e91a5024-23aa-46e7-be92-fe3cbc9870e0",
+    "name": "Test Case 7",
+    "commands": [{
+      "id": "67df73fc-e749-426f-874f-f3987c410d73",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thegioididong.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ae59a02-c04c-4489-964f-8a7f7b8e75bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x1024",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdf3bf9a-3bb0-4b51-a57e-03b178590b07",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '/he-thong-sieu-thi-the-gioi-di-dong')]",
+      "targets": [
+        ["linkText=Tìm siêu thị (3.170 shop)", "linkText"],
+        ["css=.footer__col:nth-child(2) li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tìm siêu thị (3.170 shop)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/he-thong-sieu-thi-the-gioi-di-dong')]", "xpath:href"],
+        ["xpath=//section/div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tìm siêu thị (3.170 shop)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74283bc7-9abe-42ab-8942-bb9bdb9dee71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.province-box__store",
+      "targets": [
+        ["css=.province-box__store", "css:finder"],
+        ["xpath=//section[@id='homeTGDD']/div[2]/aside/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//aside/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Chọn tỉnh, thành')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b63e202-ff04-4d0a-a4bc-35031cef97b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hồ Chí Minh",
+      "targets": [
+        ["linkText=Hồ Chí Minh", "linkText"],
+        ["css=ul:nth-child(4) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Hồ Chí Minh')])[2]", "xpath:link"],
+        ["xpath=//div[@id='province-box__store']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sieu-thi-the-gioi-di-dong/ho-chi-minh')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bda0d21-a8f2-48e4-b34d-44f44719026d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.district-box__store",
+      "targets": [
+        ["css=.district-box__store", "css:finder"],
+        ["xpath=//section[@id='homeTGDD']/div[2]/aside/div/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//aside/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Chọn quận, huyện')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4e22a15-2f17-4c47-a343-ee35ee732cc3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TP.Thủ Đức",
+      "targets": [
+        ["linkText=TP.Thủ Đức", "linkText"],
+        ["css=#district-box__store li:nth-child(22) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TP.Thủ Đức')]", "xpath:link"],
+        ["xpath=//div[@id='district-box__store']/div/div/ul/li[22]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sieu-thi-the-gioi-di-dong/ho-chi-minh/tpthu-duc')]", "xpath:href"],
+        ["xpath=//div/div/div[2]/div/div/ul/li[22]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TP.Thủ Đức')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f185e67-d2bb-4d87-a307-fd28bb52f0c5",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.conttitle > h3",
+      "targets": [
+        ["css=.conttitle > h3", "css:finder"],
+        ["xpath=//section[@id='homeTGDD']/div[2]/aside/div[3]/div/h3", "xpath:idRelative"],
+        ["xpath=//div[3]/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Có 50 Siêu Thị Tại TP.Thủ Đức Hồ Chí Minh')]", "xpath:innerText"]
+      ],
+      "value": "expectedAmountString"
+    }, {
+      "id": "9a978036-3f1e-4fdb-84ce-29d9c954c1b5",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseInt(${expectedAmountString}.trim().split(/\\s+/)[1])",
+      "targets": [],
+      "value": "expectedAmount"
+    }, {
+      "id": "c2155b1b-9ffb-454f-99c8-3559082b3bbc",
+      "comment": "",
+      "command": "echo",
+      "target": "${expectedAmount}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7239dc78-88c4-4532-928c-7110db4f99b6",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return document.getElementsByClassName('seemore').length > 0",
+      "targets": [],
+      "value": "isSeeMoreExisted"
+    }, {
+      "id": "d5d445b1-a949-49d3-9349-23233fce0a3b",
+      "comment": "",
+      "command": "while",
+      "target": "${isSeeMoreExisted}==true",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d040ccd6-a79f-4b61-8f04-4e26f22d6bd5",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4016de45-1669-4714-bdd1-1b2beafcf943",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcc0ee18-d524-4c02-baaf-f68fc5c2c33f",
+      "comment": "",
+      "command": "echo",
+      "target": "${isSeeMoreExisted}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8ea991e-2f8d-41c0-8e54-df2a088fdc44",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Xem thêm",
+      "targets": [
+        ["linkText=Xem thêm", "linkText"],
+        ["css=.seemore", "css:finder"],
+        ["xpath=//a[contains(text(),'Xem thêm')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"GetMoreStore(this, 0, 1,  -1, '')\"]", "xpath:attributes"],
+        ["xpath=//section[@id='homeTGDD']/div[2]/aside/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[67]", "xpath:href"],
+        ["xpath=//aside/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Xem thêm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ab3f1e6-03c8-4c27-b179-7e84af6a9d4a",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d35deab3-6dea-4cf2-b92e-7fd50b297696",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82f0fda3-7651-4159-b9ec-1217a0cf9889",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return document.getElementsByClassName('seemore').length > 0",
+      "targets": [],
+      "value": "isSeeMoreExisted"
+    }, {
+      "id": "c2c107c6-b56e-4981-9dcd-361c5875ef82",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbd50a05-f1b4-45bb-b715-4d5a0270fa0b",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4125ec0-7748-478e-b927-bf318f635eeb",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//aside/div[3]/ul/li",
+      "targets": [],
+      "value": "storeAmount"
+    }, {
+      "id": "0cfe294d-fc46-487c-8af1-e701e3f5a939",
+      "comment": "",
+      "command": "echo",
+      "target": "${storeAmount}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ec129cc-fd95-49fe-832c-2949c54c862a",
+      "comment": "",
+      "command": "verify",
+      "target": "expectedAmount",
+      "targets": [],
+      "value": "${storeAmount}"
+    }, {
+      "id": "23ec69e2-c4a6-48fb-a9d5-a5949da77e43",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "493ce2f3-0f58-4e24-9aa2-48776da49361",
