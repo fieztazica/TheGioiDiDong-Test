@@ -176,7 +176,7 @@
       "id": "2ae1cc41-b943-4104-abc9-15c581557686",
       "comment": "",
       "command": "executeScript",
-      "target": "return \"Hôm nay\"",
+      "target": "return \"Giao Hàng\"",
       "targets": [],
       "value": "check"
     }, {
@@ -266,7 +266,7 @@
       ],
       "value": "SGAAB9003"
     }, {
-      "id": "57d26133-dc2a-4954-be10-0c0e7ca45625",
+      "id": "c84f874f-0f3d-41ab-826b-9c99042f8a50",
       "comment": "",
       "command": "click",
       "target": "css=.pay > li:nth-child(4) span",
@@ -399,6 +399,22 @@
         ["xpath=//p[contains(.,'Lỗi giao dịch: tài khoản không nợ cước')]", "xpath:innerText"]
       ],
       "value": "Lỗi giao dịch: tài khoản không tồn tại"
+    }, {
+      "id": "7895f320-482d-43ef-9cd4-275852732c0b",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn_normaPopup",
+      "targets": [
+        ["id=btn_normaPopup", "id"],
+        ["linkText=Đóng", "linkText"],
+        ["css=#btn_normaPopup", "css:finder"],
+        ["xpath=(//a[contains(text(),'Đóng')])[2]", "xpath:link"],
+        ["xpath=//a[@id='btn_normaPopup']", "xpath:attributes"],
+        ["xpath=//div[@id='normal-popup']/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[4]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
     }]
   }, {
     "id": "52fb541b-e373-4889-9e79-7e8aefd9dd35",
@@ -487,6 +503,17 @@
       ],
       "value": ""
     }, {
+      "id": "fbede8f2-68da-4e04-b7be-8d45483365b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tx",
+      "targets": [
+        ["css=.tx", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/section/div/div/div[6]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "99b0246e-54a5-4f09-b9be-f494c2e39e15",
       "comment": "",
       "command": "storeXpathCount",
@@ -561,40 +588,6 @@
       "target": "",
       "targets": [],
       "value": ""
-    }, {
-      "id": "9c042b13-14a1-4768-92f6-b681477d731d",
-      "comment": "",
-      "command": "click",
-      "target": "css=.lstProdsItem:nth-child(1) img",
-      "targets": [
-        ["css=.lstProdsItem:nth-child(1) img", "css:finder"],
-        ["xpath=//div[@id='__layout']/div/section/div/div/div[5]/div/div/a/div/div/img", "xpath:idRelative"],
-        ["xpath=//div/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "0a1f89b8-565f-429c-bc00-46dad5b4a2fc",
-      "comment": "",
-      "command": "verifyText",
-      "target": "css=.titleName",
-      "targets": [
-        ["css=.titleName", "css:finder"],
-        ["xpath=//div[@id='__layout']/div/section/div/div/div[2]/div/div", "xpath:idRelative"],
-        ["xpath=//section/div/div/div[2]/div/div", "xpath:position"]
-      ],
-      "value": "Điện thoại Samsung Galaxy Z Flip3 5G 256GB"
-    }, {
-      "id": "36d1c37e-1bbb-4c96-82a5-4b697cf1e048",
-      "comment": "",
-      "command": "verifyText",
-      "target": "css=.typeInven",
-      "targets": [
-        ["css=.typeInven", "css:finder"],
-        ["xpath=//div[@id='__layout']/div/section/div/div/div[2]/div/div[2]/span[2]", "xpath:idRelative"],
-        ["xpath=//div[2]/span[2]", "xpath:position"],
-        ["xpath=//span[contains(.,'Sản phẩm đã sử dụng')]", "xpath:innerText"]
-      ],
-      "value": "Sản phẩm đã sử dụng"
     }]
   }],
   "suites": [{
