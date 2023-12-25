@@ -4,230 +4,6 @@
   "name": "TheGioiDiDongTests",
   "url": "https://thegioididong.com",
   "tests": [{
-    "id": "01d0335c-b71d-4960-ac3a-21264edd6899",
-    "name": "Test Case 1",
-    "commands": [{
-      "id": "806d496b-8793-4750-9a3f-7fd0252110dc",
-      "comment": "",
-      "command": "open",
-      "target": "/",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "90ca50ff-d690-4f51-9f60-bf834f216d33",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1249x760",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "94299310-d682-44e4-83f4-4ccb7cc74cc7",
-      "comment": "",
-      "command": "click",
-      "target": "id=skw",
-      "targets": [
-        ["id=skw", "id"],
-        ["name=key", "name"],
-        ["css=#skw", "css:finder"],
-        ["xpath=//input[@id='skw']", "xpath:attributes"],
-        ["xpath=//input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "7b1cf1f2-9220-46c1-9634-1bfb3465fac0",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return 'galaxy s22'",
-      "targets": [],
-      "value": "tentim"
-    }, {
-      "id": "7325265a-4a0e-4102-b516-5538a8b91b1a",
-      "comment": "",
-      "command": "type",
-      "target": "id=skw",
-      "targets": [
-        ["id=skw", "id"],
-        ["name=key", "name"],
-        ["css=#skw", "css:finder"],
-        ["xpath=//input[@id='skw']", "xpath:attributes"],
-        ["xpath=//input", "xpath:position"]
-      ],
-      "value": "${tentim}"
-    }, {
-      "id": "36247f4e-4bf8-44fe-a146-89f8cec46c47",
-      "comment": "",
-      "command": "click",
-      "target": "css=button > .icon-search",
-      "targets": [
-        ["css=button > .icon-search", "css:finder"],
-        ["xpath=//button/i", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "61c4fa44-cd61-4402-8bac-a64fdbf2cd36",
-      "comment": "",
-      "command": "click",
-      "target": "css=.view-more > a",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "5878444b-ddb0-43fd-b279-af9ffcd55f3a",
-      "comment": "",
-      "command": "storeXpathCount",
-      "target": "xpath=//html/body/section[1]/aside/div[3]/ul/li",
-      "targets": [],
-      "value": "count"
-    }, {
-      "id": "34d29e22-d26e-45b8-9adc-f1dd317a169f",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return 0",
-      "targets": [],
-      "value": "soluong"
-    }, {
-      "id": "0fa9a116-1bc6-4145-8aea-6e2da949d710",
-      "comment": "",
-      "command": "//echo",
-      "target": "${count}",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "829994ac-b2f5-4be9-9417-80c1ece8d95b",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return 3",
-      "targets": [],
-      "value": "dem"
-    }, {
-      "id": "2095b00c-2475-4999-8261-1590c9f11bc4",
-      "comment": "",
-      "command": "storeText",
-      "target": "css=.sort-total",
-      "targets": [
-        ["css=.sort-total", "css:finder"],
-        ["xpath=//div[@id='filter-aj']/div/p", "xpath:idRelative"],
-        ["xpath=//aside/div[2]/div/p", "xpath:position"],
-        ["xpath=//p[contains(.,'Tìm thấy 27 kết quả:')]", "xpath:innerText"]
-      ],
-      "value": "hethongtim"
-    }, {
-      "id": "dbbd315e-96a3-4229-9753-d424d225cd62",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return parseInt(${hethongtim}.replace(/[^\\d.-]/g, \"\"))",
-      "targets": [],
-      "value": "hethongtim"
-    }, {
-      "id": "fd5ef0a8-a392-4977-afef-910096205928",
-      "comment": "",
-      "command": "echo",
-      "target": "${timduocht}",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "6ddabaaa-e5d8-445d-9307-ca074dfe75af",
-      "comment": "",
-      "command": "while",
-      "target": "${dem}<=${count}",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "2cb362e0-824b-45ac-8beb-a881aa76903c",
-      "comment": "",
-      "command": "storeText",
-      "target": "xpath=//li[${dem}]/a/h3",
-      "targets": [
-        ["css=.item:nth-child(13) h3", "css:finder"],
-        ["xpath=//li[13]/a/h3", "xpath:position"],
-        ["xpath=//h3[contains(.,'Samsung Galaxy S21 Ultra 5G 256GB')]", "xpath:innerText"]
-      ],
-      "value": "ketqua"
-    }, {
-      "id": "a6402e9b-66bc-40fa-90c8-f0f39e13dab1",
-      "comment": "",
-      "command": "//echo",
-      "target": "${ketqua}",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "7c1f8bde-dd01-439d-bd16-0fdb9d7648d9",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return ${ketqua}.toLowerCase().includes(${tentim}.toLowerCase())",
-      "targets": [],
-      "value": "timduoc"
-    }, {
-      "id": "2075fc32-395f-42f9-a09e-5617d9f47e90",
-      "comment": "",
-      "command": "if",
-      "target": "${timduoc}",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "98f9b648-a1e6-49f7-9324-76c56ea17170",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return ${soluong}+1",
-      "targets": [],
-      "value": "soluong"
-    }, {
-      "id": "5d7b9e93-a2cb-4f31-835e-aba16c7fbcba",
-      "comment": "",
-      "command": "end",
-      "target": "",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "31c66382-c6c1-4d37-a618-73ec8be4f13d",
-      "comment": "",
-      "command": "//echo",
-      "target": "${timduoc}",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "8aaa7e3c-bde3-4329-8d9c-4c22552cf949",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return ${dem}+1",
-      "targets": [],
-      "value": "dem"
-    }, {
-      "id": "2a6f03d7-5be2-404c-85a6-e8adc3067203",
-      "comment": "",
-      "command": "end",
-      "target": "",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "437a83a9-2777-4cc2-9a6d-80a90f09e0b8",
-      "comment": "",
-      "command": "//echo",
-      "target": "${soluong}",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "fa217390-ad5b-4373-bffd-d038ec7fa9a8",
-      "comment": "",
-      "command": "//echo",
-      "target": "${hethongtim}",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "ceca54d1-c077-456f-8c48-7e5e1a46fb3c",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return (${soluong}==${hethongtim})",
-      "targets": [],
-      "value": "result"
-    }, {
-      "id": "80213407-1caf-4a46-9ef4-4ac9206c0272",
-      "comment": "",
-      "command": "verify",
-      "target": "result",
-      "targets": [],
-      "value": "true"
-    }]
-  }, {
     "id": "619f8a98-ca55-434f-951a-0cb6160b6f9e",
     "name": "Test Case 2",
     "commands": [{
@@ -1059,6 +835,230 @@
       "targets": [],
       "value": "true"
     }]
+  }, {
+    "id": "b1c3bf70-9f63-4cdb-b09a-02d866a55680",
+    "name": "Test Case 1",
+    "commands": [{
+      "id": "d8ff49c8-7e2e-4670-9e13-79d4729af94e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3e5c8b4-f881-49ac-a709-d9f945972aff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1249x760",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89d1918c-c4b1-40b8-be70-14e630edff60",
+      "comment": "",
+      "command": "click",
+      "target": "id=skw",
+      "targets": [
+        ["id=skw", "id"],
+        ["name=key", "name"],
+        ["css=#skw", "css:finder"],
+        ["xpath=//input[@id='skw']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56faee66-77c3-4f2f-815c-9ae4259b51b6",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 'galaxy s22'",
+      "targets": [],
+      "value": "tentim"
+    }, {
+      "id": "2d2c97cc-6b03-47d3-8c65-cd33a1518f22",
+      "comment": "",
+      "command": "type",
+      "target": "id=skw",
+      "targets": [
+        ["id=skw", "id"],
+        ["name=key", "name"],
+        ["css=#skw", "css:finder"],
+        ["xpath=//input[@id='skw']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${tentim}"
+    }, {
+      "id": "f969ed7a-1086-4a61-a297-287189d8bc86",
+      "comment": "",
+      "command": "click",
+      "target": "css=button > .icon-search",
+      "targets": [
+        ["css=button > .icon-search", "css:finder"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eee1f2e8-df1d-4877-a188-cddc94c71694",
+      "comment": "",
+      "command": "click",
+      "target": "css=.view-more > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f49f70b-b69c-4fd8-8c3c-1b3b9cb20343",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//html/body/section[1]/aside/div[3]/ul/li",
+      "targets": [],
+      "value": "count"
+    }, {
+      "id": "de9fbe20-bc20-495e-97d0-513093f436d3",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 0",
+      "targets": [],
+      "value": "soluong"
+    }, {
+      "id": "b00d2245-502b-483c-8f60-43cd5fb902d7",
+      "comment": "",
+      "command": "//echo",
+      "target": "${count}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b42dcb0-03ad-4b54-81b5-16409dbbdfe8",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 3",
+      "targets": [],
+      "value": "dem"
+    }, {
+      "id": "75e41c57-4e8b-4558-810c-45fc67752a02",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.sort-total",
+      "targets": [
+        ["css=.sort-total", "css:finder"],
+        ["xpath=//div[@id='filter-aj']/div/p", "xpath:idRelative"],
+        ["xpath=//aside/div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Tìm thấy 27 kết quả:')]", "xpath:innerText"]
+      ],
+      "value": "hethongtim"
+    }, {
+      "id": "75f5cd07-c39e-46e2-b8d8-208c44a18ad4",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseInt(${hethongtim}.replace(/[^\\d.-]/g, \"\"))",
+      "targets": [],
+      "value": "hethongtim"
+    }, {
+      "id": "fd881bae-32f7-4991-bf5a-aa74dc4a3db3",
+      "comment": "",
+      "command": "echo",
+      "target": "${timduocht}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "281c6775-e0af-4544-a152-76bbffd98383",
+      "comment": "",
+      "command": "while",
+      "target": "${dem}<=${count}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcd76756-5b52-4a2d-9d9d-7e60ffa44ac1",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=//li[${dem}]/a/h3",
+      "targets": [
+        ["css=.item:nth-child(13) h3", "css:finder"],
+        ["xpath=//li[13]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Samsung Galaxy S21 Ultra 5G 256GB')]", "xpath:innerText"]
+      ],
+      "value": "ketqua"
+    }, {
+      "id": "f890054c-7b85-42c2-97b5-f05cf9c3ec24",
+      "comment": "",
+      "command": "//echo",
+      "target": "${ketqua}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ce9cb27-1596-4ce6-841a-30368f0f04c5",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${ketqua}.toLowerCase().includes(${tentim}.toLowerCase())",
+      "targets": [],
+      "value": "timduoc"
+    }, {
+      "id": "ac7cc8f1-1c16-4981-b5a8-d8771c4a59c8",
+      "comment": "",
+      "command": "if",
+      "target": "${timduoc}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e4a4862-73b3-42ca-ac77-571c1111824b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${soluong}+1",
+      "targets": [],
+      "value": "soluong"
+    }, {
+      "id": "6018aa0c-aabb-48e4-b0a6-ecb05888a2d8",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ded9c79-27f2-4aa8-95d0-3b09a65783e7",
+      "comment": "",
+      "command": "//echo",
+      "target": "${timduoc}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c04b81d6-3ad1-4b20-a2d7-eb790e2b05bf",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${dem}+1",
+      "targets": [],
+      "value": "dem"
+    }, {
+      "id": "4ce21c0f-b8a5-4840-8865-3f445569762b",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae817b2f-8e2f-4709-a851-c8d54e6e1fb4",
+      "comment": "",
+      "command": "//echo",
+      "target": "${soluong}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93df5c1b-70f6-4641-8661-f5d88a882e83",
+      "comment": "",
+      "command": "//echo",
+      "target": "${hethongtim}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89973bb9-d41e-4f99-af89-4b5838d7c5dd",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return (${soluong}==${hethongtim})",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "8aebfd48-cb17-4177-9b40-5c3cc0bd98bf",
+      "comment": "",
+      "command": "verify",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }]
   }],
   "suites": [{
     "id": "493ce2f3-0f58-4e24-9aa2-48776da49361",
@@ -1066,7 +1066,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["01d0335c-b71d-4960-ac3a-21264edd6899"]
+    "tests": []
   }],
   "urls": ["https://www.thegioididong.com/"],
   "plugins": []
