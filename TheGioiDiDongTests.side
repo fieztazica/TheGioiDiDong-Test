@@ -4,6 +4,1061 @@
   "name": "TheGioiDiDongTests",
   "url": "https://thegioididong.com",
   "tests": [{
+    "id": "619f8a98-ca55-434f-951a-0cb6160b6f9e",
+    "name": "Test Case 2",
+    "commands": [{
+      "id": "b471fcb5-5264-41cb-b64e-a8b20ff7806c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65ffc676-2095-472b-8a5d-08571f30fac6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1249x760",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d36984a-7b46-4f8c-b020-434fec351df4",
+      "comment": "",
+      "command": "click",
+      "target": "id=skw",
+      "targets": [
+        ["id=skw", "id"],
+        ["name=key", "name"],
+        ["css=#skw", "css:finder"],
+        ["xpath=//input[@id='skw']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "631b2c4e-2695-4eac-aea0-69da7c9d6c04",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 'galaxy s22'",
+      "targets": [],
+      "value": "tentim"
+    }, {
+      "id": "5850cda3-5fb3-4d01-8b48-85368b5f3954",
+      "comment": "",
+      "command": "type",
+      "target": "id=skw",
+      "targets": [
+        ["id=skw", "id"],
+        ["name=key", "name"],
+        ["css=#skw", "css:finder"],
+        ["xpath=//input[@id='skw']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${tentim}"
+    }, {
+      "id": "22ab272d-9fdf-4dc3-872d-3e0e045fb772",
+      "comment": "",
+      "command": "click",
+      "target": "css=button > .icon-search",
+      "targets": [
+        ["css=button > .icon-search", "css:finder"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a210a57-8f40-427f-9bf8-a54255570c00",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[3]/a/h3",
+      "targets": [
+        ["css=h3:nth-child(4)", "css:finder"],
+        ["xpath=//li[3]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Samsung Galaxy S22 Ultra 5G 128GB')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8e33613-93de-4bdd-a96c-4c9c92373238",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.box-price-present",
+      "targets": [
+        ["css=.box-price-present", "css:finder"],
+        ["xpath=//section/div[3]/div[2]/div[2]/div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'16.990.000₫')]", "xpath:innerText"]
+      ],
+      "value": "DaKM"
+    }, {
+      "id": "e1ef38cd-df7c-4238-a26b-7d701bd4e1f0",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseFloat(${DaKM}.replace(/\\./g, ''))",
+      "targets": [],
+      "value": "DaKM"
+    }, {
+      "id": "34466210-1e7b-486c-97ea-07254a185c6c",
+      "comment": "",
+      "command": "//echo",
+      "target": "${DaKM}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca2fe7dc-4943-4969-b339-73c238f6af6d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MUA NGAY",
+      "targets": [
+        ["linkText=MUA NGAY", "linkText"],
+        ["css=.btn-buynow", "css:finder"],
+        ["xpath=//a[contains(text(),'MUA NGAY')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[5]/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MUA NGAY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b19fe69-b6ae-46bf-92e8-5ca98194d960",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ordered:nth-child(9)",
+      "targets": [
+        ["css=.ordered:nth-child(9)", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47310f6a-ef32-4e1f-9179-de68e407b582",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.total-price > strong:nth-child(2)",
+      "targets": [
+        ["css=.total-price > strong:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[8]/div/div[3]/strong[2]", "xpath:idRelative"],
+        ["xpath=//strong[2]", "xpath:position"],
+        ["xpath=//strong[contains(.,'16.990.000₫')]", "xpath:innerText"]
+      ],
+      "value": "Tong"
+    }, {
+      "id": "32ef6229-acb3-442f-9184-3693c9e974af",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseFloat(${Tong}.replace(/\\./g, ''))",
+      "targets": [],
+      "value": "Tong"
+    }, {
+      "id": "b98d3313-efb5-4a80-af52-937bb167fe1e",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return (${Tong}==${DaKM})",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "4ccf8780-fd61-46ba-8664-7648e1a58438",
+      "comment": "",
+      "command": "verify",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }]
+  }, {
+    "id": "9c4655ce-12db-4123-86d0-9311551da4f8",
+    "name": "Test Case 8",
+    "commands": [{
+      "id": "c0986391-8bca-4a4c-b342-34dd26296edd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "527be9a3-3a46-4696-a2a7-09fe233d31e7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1249x760",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0e1a5ae-302d-4713-9046-12346781c6db",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='Điện thoại']",
+      "targets": [
+        ["css=li:nth-child(1) i > img", "css:finder"],
+        ["xpath=//img[@alt='Điện thoại']", "xpath:img"],
+        ["xpath=//i/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ca74fcc-7bfa-426f-8e1f-9b20be50c931",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-filter",
+      "targets": [
+        ["css=.icon-filter", "css:finder"],
+        ["xpath=//div[2]/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e251c77-d698-449c-806e-e6356366467b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//img[@alt='Samsung'])[2]",
+      "targets": [
+        ["css=.filter-list--hang:nth-child(2) > .c-btnbox:nth-child(1) > img", "css:finder"],
+        ["xpath=(//img[@alt='Samsung'])[2]", "xpath:img"],
+        ["xpath=//div[@id='wrapper']/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": "xpath"
+    }, {
+      "id": "1ad75626-aa01-4be9-8785-44e641935e14",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=4 GB",
+      "targets": [
+        ["linkText=4 GB", "linkText"],
+        ["css=.filter-list--ram > .c-btnbox:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'4 GB')]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/div[2]/div[7]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'dtdd-ram-4gb')]", "xpath:href"],
+        ["xpath=//div[7]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'4 GB')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "540303ad-e5c5-468d-8e70-208aa6407460",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=//div[2]/div/div/a",
+      "targets": [
+        ["linkText=Samsung", "linkText"],
+        ["css=.list-filter-active > .manu > a", "css:finder"],
+        ["xpath=//a[@onclick='removeFilterActive(this)']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[5]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": "checkHang"
+    }, {
+      "id": "f7d64157-3d5d-4eb0-b41d-cafaff5ead63",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=//div[2]/div/div[3]/a/span",
+      "targets": [
+        ["css=.props span", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'4 GB')]", "xpath:innerText"]
+      ],
+      "value": "checkRam"
+    }, {
+      "id": "420e1fd4-d91b-468e-b79d-5209a2ff356f",
+      "comment": "",
+      "command": "echo",
+      "target": "${checkRam}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7caa4dd-253d-480a-8978-47f1192afd4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-button--total > .btn-filter-readmore",
+      "targets": [
+        ["linkText=Xem 6 kết quả", "linkText"],
+        ["css=.filter-button--total > .btn-filter-readmore", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div[2]/div[12]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[9]", "xpath:href"],
+        ["xpath=//div[12]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Xem 6 kết quả')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8655976b-d4fa-4213-af86-ca2cd819d22d",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.box-sort > .sort-total",
+      "targets": [
+        ["css=.box-sort > .sort-total", "css:finder"],
+        ["xpath=//section[@id='categoryPage']/div/p", "xpath:idRelative"],
+        ["xpath=//section/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'6 Điện thoại Samsung')]", "xpath:innerText"]
+      ],
+      "value": "soluong"
+    }, {
+      "id": "c13afa7a-cdfa-4374-a23f-5de11a2b7747",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseInt(${soluong}.replace(/[^\\d.-]/g, \"\"))",
+      "targets": [],
+      "value": "soluong"
+    }, {
+      "id": "8b576878-48bf-4ae4-a169-2e1f67e38a91",
+      "comment": "",
+      "command": "echo",
+      "target": "${soluong}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc51e22c-d195-401f-835d-b2551089b7be",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 0",
+      "targets": [],
+      "value": "dung"
+    }, {
+      "id": "4a0d0a8a-fb80-478f-bfb0-ae396a36bbe2",
+      "comment": "",
+      "command": "//echo",
+      "target": "${soluong}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa3322e6-16c5-4b51-8a26-2ee0814f0949",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "dem"
+    }, {
+      "id": "2f44c35d-6b39-449f-9a18-7f7f69c9ed89",
+      "comment": "",
+      "command": "while",
+      "target": "${dem}<=${soluong}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83ab9d0b-7d9d-4d38-9a3b-66b112537c69",
+      "comment": "",
+      "command": "//echo",
+      "target": "${dem}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec03dabc-e514-4349-8b46-bb5e36a16a43",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=//li[${dem}]/a/h3",
+      "targets": [
+        ["css=h3:nth-child(4)", "css:finder"],
+        ["xpath=//section[@id='categoryPage']/div[3]/ul/li[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//li[2]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Samsung Galaxy A05s 4GB')]", "xpath:innerText"]
+      ],
+      "value": "tenHang"
+    }, {
+      "id": "eb0a4baf-5741-4f9d-bb7f-834b5ad13016",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=//li[${dem}]/div[3]/p[2]",
+      "targets": [
+        ["css=.item:nth-child(2) > .utility > p:nth-child(2)", "css:finder"],
+        ["xpath=//section[@id='categoryPage']/div[3]/ul/li[2]/div[3]/p[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/div[3]/p[2]", "xpath:position"]
+      ],
+      "value": "soRam"
+    }, {
+      "id": "197e4390-97c9-474a-bd58-12d94dcc4079",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return (${tenHang}.toLowerCase().includes(${checkHang}.toLowerCase()) && ${soRam}.toLowerCase().includes(${checkRam}.toLowerCase()))",
+      "targets": [],
+      "value": "timduoc"
+    }, {
+      "id": "91559716-45ad-4688-8a9c-6bbb31494be2",
+      "comment": "",
+      "command": "//echo",
+      "target": "${timduoc}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "505624b1-3d16-4173-92c8-da7d7d42790a",
+      "comment": "",
+      "command": "if",
+      "target": "${timduoc}",
+      "targets": [
+        ["css=.item:nth-child(1) > .utility > p:nth-child(2)", "css:finder"],
+        ["xpath=//section[@id='categoryPage']/div[3]/ul/li/div[3]/p[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'RAM: 4 GB')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41b943a3-d75e-480c-a044-417f0b57b3d3",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${dung}+1",
+      "targets": [],
+      "value": "dung"
+    }, {
+      "id": "b6d0dafd-d3f7-4045-85a3-2845b39cde17",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7f5edef-73fb-4702-a82b-939906fd5209",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${dem}+1",
+      "targets": [],
+      "value": "dem"
+    }, {
+      "id": "7b5f6285-efb6-4c71-a1dd-b962af5af33b",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7483768-298d-4af0-a5f9-1b5065256fa6",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${dung}==${soluong}",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "311386f2-3ad7-4c98-abd0-b222c593775d",
+      "comment": "",
+      "command": "verify",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }]
+  }, {
+    "id": "ffc885c0-d025-4c9a-9f9e-5f9a98138846",
+    "name": "Test Case 10",
+    "commands": [{
+      "id": "9f15371a-eca9-498d-82e8-b29f0cf4076d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "301fece8-1ed1-4095-8fe7-044d6b082fde",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1249x760",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6c96672-cee4-49d2-a5ef-7fbe716da6cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-current > div:nth-child(1) .lazyloaded",
+      "targets": [
+        ["css=.slick-current > div:nth-child(1) .lazyloaded", "css:finder"],
+        ["xpath=//img[@alt='iPhone 15 Plus 128GB']", "xpath:img"],
+        ["xpath=//div[@id='flashsale']/div[3]/div/div/div/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57cc8350-a858-43f1-beca-72a1fa4e9737",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.point > p",
+      "targets": [
+        ["css=.point > p", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'4.5')]", "xpath:innerText"]
+      ],
+      "value": "diem"
+    }, {
+      "id": "dd79fe00-b031-4e66-a111-487f2f38c7fd",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseFloat(${diem})",
+      "targets": [],
+      "value": "diem"
+    }, {
+      "id": "88b0f32b-6a9b-4c4c-9718-1e25545ef432",
+      "comment": "",
+      "command": "echo",
+      "target": "${diem}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8003938-b667-469a-9954-6a91a1d9c99b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 0",
+      "targets": [],
+      "value": "diemCheck"
+    }, {
+      "id": "eae1a4b7-2140-4059-ac2d-86a9ee053c76",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "dem"
+    }, {
+      "id": "f343dbed-3956-4e5a-ab58-317207df6a42",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 5",
+      "targets": [],
+      "value": "nguoc"
+    }, {
+      "id": "18f1c196-3b75-4174-a0c3-63f96cb5e3a5",
+      "comment": "",
+      "command": "while",
+      "target": "${dem}<=5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a2a876f-5184-41f7-be39-e31211801f1f",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=li:nth-child(${dem}) > .number-percent",
+      "targets": [
+        ["css=li:nth-child(1) > .number-percent", "css:finder"],
+        ["xpath=//div/ul/li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'69%')]", "xpath:innerText"]
+      ],
+      "value": "sodanhgia"
+    }, {
+      "id": "ae09c2ba-e26b-4759-a198-e4b78d681fa7",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return (${diemCheck}+parseFloat(${sodanhgia})*${nguoc})",
+      "targets": [],
+      "value": "diemCheck"
+    }, {
+      "id": "e6c43b74-7aec-4b9f-b6f8-d4230cc95fd2",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${nguoc}-1",
+      "targets": [],
+      "value": "nguoc"
+    }, {
+      "id": "11e7f7e1-f484-4480-9507-e579667cceb4",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${dem}+1",
+      "targets": [],
+      "value": "dem"
+    }, {
+      "id": "4f9ef29c-e93d-4d75-b462-4c75efea2224",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc6ec422-135f-4260-a208-b2bfa7bb8790",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Math.round((${diemCheck}/100)*2)/2",
+      "targets": [],
+      "value": "diemCheck"
+    }, {
+      "id": "c2a3956b-54ea-4d4d-a382-720befb8d57a",
+      "comment": "",
+      "command": "echo",
+      "target": "${diemCheck}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "191e9eb9-7935-4d8b-8d51-bbd3a802528b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${diemCheck}==${diem}",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "2616afdd-ec6a-447d-aafa-af648c773335",
+      "comment": "",
+      "command": "verify",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }]
+  }, {
+    "id": "ca19d080-53e4-40aa-9732-fdb8a66f85bd",
+    "name": "Test Case 13",
+    "commands": [{
+      "id": "58c7d88d-fd42-453e-83a4-eb52a6389ed7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ebfe972-ec61-419d-b558-0b57f7828afd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1249x760",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30745200-a62d-46f4-9a39-365aaa9f3480",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.has-list:nth-child(7)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7845123-c7e2-4c20-9f69-41731896bf9e",
+      "comment": "",
+      "command": "open",
+      "target": "/thu-cu-doi-moi",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb3a70e9-f699-4e1d-97b5-8055781ab3ff",
+      "comment": "",
+      "command": "//click",
+      "target": "xpath=//li[7]/div/div[2]/a/h3",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "badab395-361a-4e3f-b839-205f800872f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ĐỔI NGAY",
+      "targets": [
+        ["linkText=ĐỔI NGAY", "linkText"],
+        ["css=.item:nth-child(1) > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'ĐỔI NGAY')]", "xpath:link"],
+        ["xpath=//section[@id='0']/div/div[2]/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:Popup(-1, 250625)')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'ĐỔI NGAY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c12e11f3-c63d-4867-b7bf-e72b85a6ad9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-search > input",
+      "targets": [
+        ["css=.d-search > input", "css:finder"],
+        ["xpath=(//input[@name='key'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='frmOrder']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91fc96d6-5cd1-46a1-bcf3-e1f851d277d0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.d-search > input",
+      "targets": [
+        ["css=.d-search > input", "css:finder"],
+        ["xpath=(//input[@name='key'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='frmOrder']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "galaxy a01"
+    }, {
+      "id": "b53a7a74-3440-46f6-a8cf-4fcfc3e4fbe0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-list > span > b",
+      "targets": [
+        ["css=.d-list > span > b", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div/div[2]/span/b", "xpath:idRelative"],
+        ["xpath=//div[2]/span/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Samsung Galaxy A01')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3116e297-2e79-4310-a71f-329f78cc929f",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.s3 > b",
+      "targets": [
+        ["css=.s3 > b", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[4]/div[2]/span[3]/b", "xpath:idRelative"],
+        ["xpath=//div[2]/span[3]/b", "xpath:position"],
+        ["xpath=//b[contains(.,'27.990.000₫')]", "xpath:innerText"]
+      ],
+      "value": "giaGoc"
+    }, {
+      "id": "0bac25dc-ad85-4fc3-96a2-e88d356ea352",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseFloat(${giaGoc}.replace(/\\./g, ''))",
+      "targets": [],
+      "value": "giaGoc"
+    }, {
+      "id": "cf0abcd4-67ed-41d6-a147-d94f2c39506e",
+      "comment": "",
+      "command": "//echo",
+      "target": "${giaGoc}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4855213-b5e6-4157-b1a3-cca882dee0ee",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 0",
+      "targets": [],
+      "value": "giaTruCheck"
+    }, {
+      "id": "01229b2f-a6aa-46c9-bb58-f8dcc303f569",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 5",
+      "targets": [],
+      "value": "dem"
+    }, {
+      "id": "0489b9ca-e6a4-4a67-af95-ec54fcf5f674",
+      "comment": "",
+      "command": "while",
+      "target": "${dem}>0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1b9c078-7fdf-4614-8bc0-795ce0d1324f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-status > span",
+      "targets": [
+        ["css=.d-status > span", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Chọn tình trạng máy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca6fb730-157c-480d-8738-5af0527099af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-list > span:nth-child(${dem})",
+      "targets": [
+        ["css=.d-list > span:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Loại 1: Màn chính hãng & Các chức năng hoạt động tốt & Thân, màn không trầy xước')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c2737fd-93bf-42a1-8982-c8ea8aed55ce",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=//div[2]/span[4]/b",
+      "targets": [
+        ["css=.s4 > b", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[4]/div[2]/span[4]/b", "xpath:idRelative"],
+        ["xpath=//div[2]/span[4]/b", "xpath:position"],
+        ["xpath=//b[contains(.,'1.550.000₫')]", "xpath:innerText"]
+      ],
+      "value": "giaTru"
+    }, {
+      "id": "186710cc-a520-4595-b437-f6fbda50c067",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseFloat(${giaTru}.replace(/\\./g, ''))",
+      "targets": [],
+      "value": "giaTru"
+    }, {
+      "id": "ef58fcd9-e080-4351-83da-68b66a098056",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${giaGoc}-${giaTru}",
+      "targets": [],
+      "value": "giaLech"
+    }, {
+      "id": "e3adab0b-44b9-4934-b49b-a60009e8f730",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.s5 > b",
+      "targets": [
+        ["css=.s5 > b", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[4]/div[2]/span[5]/b", "xpath:idRelative"],
+        ["xpath=//div[2]/span[5]/b", "xpath:position"],
+        ["xpath=//b[contains(.,'26.440.000₫')]", "xpath:innerText"]
+      ],
+      "value": "giaThanhToan"
+    }, {
+      "id": "8d4b8f05-0c68-44d4-92a1-05373aab836d",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseFloat(${giaThanhToan}.replace(/\\./g, ''))",
+      "targets": [],
+      "value": "giaThanhToan"
+    }, {
+      "id": "4dd4dbeb-28e4-41dc-bf12-33f1724dd621",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return (${giaTruCheck}<=${giaTru}&&${giaLech}==${giaThanhToan})",
+      "targets": [],
+      "value": "check"
+    }, {
+      "id": "5fe84914-7a4e-4556-86d9-1bf4a21b1a61",
+      "comment": "",
+      "command": "echo",
+      "target": "${check}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bcb86b6-099e-4a0c-844c-ae3901ff1bf5",
+      "comment": "",
+      "command": "if",
+      "target": "${check}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1bb9171-fe74-48dc-ab17-3597c33c6cc0",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${giaTru}",
+      "targets": [],
+      "value": "giaTruCheck"
+    }, {
+      "id": "15260dd8-1c63-4515-b723-c3bebde60126",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "493756a2-dd4e-461c-9631-03ad887b4d12",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${dem}-1",
+      "targets": [],
+      "value": "dem"
+    }, {
+      "id": "8a794493-373f-494a-b63c-0bc0168d0e7f",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "500e96c5-35f6-44e8-8e4d-803d727e0c78",
+      "comment": "",
+      "command": "verify",
+      "target": "check",
+      "targets": [],
+      "value": "true"
+    }]
+  }, {
+    "id": "b1c3bf70-9f63-4cdb-b09a-02d866a55680",
+    "name": "Test Case 1",
+    "commands": [{
+      "id": "d8ff49c8-7e2e-4670-9e13-79d4729af94e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3e5c8b4-f881-49ac-a709-d9f945972aff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1249x760",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89d1918c-c4b1-40b8-be70-14e630edff60",
+      "comment": "",
+      "command": "click",
+      "target": "id=skw",
+      "targets": [
+        ["id=skw", "id"],
+        ["name=key", "name"],
+        ["css=#skw", "css:finder"],
+        ["xpath=//input[@id='skw']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56faee66-77c3-4f2f-815c-9ae4259b51b6",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 'galaxy s22'",
+      "targets": [],
+      "value": "tentim"
+    }, {
+      "id": "2d2c97cc-6b03-47d3-8c65-cd33a1518f22",
+      "comment": "",
+      "command": "type",
+      "target": "id=skw",
+      "targets": [
+        ["id=skw", "id"],
+        ["name=key", "name"],
+        ["css=#skw", "css:finder"],
+        ["xpath=//input[@id='skw']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${tentim}"
+    }, {
+      "id": "f969ed7a-1086-4a61-a297-287189d8bc86",
+      "comment": "",
+      "command": "click",
+      "target": "css=button > .icon-search",
+      "targets": [
+        ["css=button > .icon-search", "css:finder"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eee1f2e8-df1d-4877-a188-cddc94c71694",
+      "comment": "",
+      "command": "click",
+      "target": "css=.view-more > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f49f70b-b69c-4fd8-8c3c-1b3b9cb20343",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//html/body/section[1]/aside/div[3]/ul/li",
+      "targets": [],
+      "value": "count"
+    }, {
+      "id": "de9fbe20-bc20-495e-97d0-513093f436d3",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 0",
+      "targets": [],
+      "value": "soluong"
+    }, {
+      "id": "b00d2245-502b-483c-8f60-43cd5fb902d7",
+      "comment": "",
+      "command": "//echo",
+      "target": "${count}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b42dcb0-03ad-4b54-81b5-16409dbbdfe8",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 3",
+      "targets": [],
+      "value": "dem"
+    }, {
+      "id": "75e41c57-4e8b-4558-810c-45fc67752a02",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.sort-total",
+      "targets": [
+        ["css=.sort-total", "css:finder"],
+        ["xpath=//div[@id='filter-aj']/div/p", "xpath:idRelative"],
+        ["xpath=//aside/div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Tìm thấy 27 kết quả:')]", "xpath:innerText"]
+      ],
+      "value": "hethongtim"
+    }, {
+      "id": "75f5cd07-c39e-46e2-b8d8-208c44a18ad4",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseInt(${hethongtim}.replace(/[^\\d.-]/g, \"\"))",
+      "targets": [],
+      "value": "hethongtim"
+    }, {
+      "id": "fd881bae-32f7-4991-bf5a-aa74dc4a3db3",
+      "comment": "",
+      "command": "echo",
+      "target": "${timduocht}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "281c6775-e0af-4544-a152-76bbffd98383",
+      "comment": "",
+      "command": "while",
+      "target": "${dem}<=${count}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcd76756-5b52-4a2d-9d9d-7e60ffa44ac1",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=//li[${dem}]/a/h3",
+      "targets": [
+        ["css=.item:nth-child(13) h3", "css:finder"],
+        ["xpath=//li[13]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Samsung Galaxy S21 Ultra 5G 256GB')]", "xpath:innerText"]
+      ],
+      "value": "ketqua"
+    }, {
+      "id": "f890054c-7b85-42c2-97b5-f05cf9c3ec24",
+      "comment": "",
+      "command": "//echo",
+      "target": "${ketqua}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ce9cb27-1596-4ce6-841a-30368f0f04c5",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${ketqua}.toLowerCase().includes(${tentim}.toLowerCase())",
+      "targets": [],
+      "value": "timduoc"
+    }, {
+      "id": "ac7cc8f1-1c16-4981-b5a8-d8771c4a59c8",
+      "comment": "",
+      "command": "if",
+      "target": "${timduoc}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e4a4862-73b3-42ca-ac77-571c1111824b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${soluong}+1",
+      "targets": [],
+      "value": "soluong"
+    }, {
+      "id": "6018aa0c-aabb-48e4-b0a6-ecb05888a2d8",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ded9c79-27f2-4aa8-95d0-3b09a65783e7",
+      "comment": "",
+      "command": "//echo",
+      "target": "${timduoc}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c04b81d6-3ad1-4b20-a2d7-eb790e2b05bf",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${dem}+1",
+      "targets": [],
+      "value": "dem"
+    }, {
+      "id": "4ce21c0f-b8a5-4840-8865-3f445569762b",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae817b2f-8e2f-4709-a851-c8d54e6e1fb4",
+      "comment": "",
+      "command": "//echo",
+      "target": "${soluong}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93df5c1b-70f6-4641-8661-f5d88a882e83",
+      "comment": "",
+      "command": "//echo",
+      "target": "${hethongtim}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89973bb9-d41e-4f99-af89-4b5838d7c5dd",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return (${soluong}==${hethongtim})",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "8aebfd48-cb17-4177-9b40-5c3cc0bd98bf",
+      "comment": "",
+      "command": "verify",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }]
     "id": "01d0335c-b71d-4960-ac3a-21264edd6899",
     "name": "Test Case 4",
     "commands": [{
@@ -778,7 +1833,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["01d0335c-b71d-4960-ac3a-21264edd6899"]
+    "tests": []
   }],
   "urls": ["https://thegioididong.com/"],
   "plugins": []
