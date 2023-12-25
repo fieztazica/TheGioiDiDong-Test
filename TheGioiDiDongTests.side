@@ -4,272 +4,6 @@
   "name": "TheGioiDiDongTests",
   "url": "https://www.thegioididong.com",
   "tests": [{
-    "id": "01d0335c-b71d-4960-ac3a-21264edd6899",
-    "name": "Test case 14",
-    "commands": [{
-      "id": "61ebc439-c831-44e1-a23f-85daf419bc31",
-      "comment": "",
-      "command": "open",
-      "target": "/",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "40025b38-67cc-4fd8-8048-0e8c232994bc",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1936x1048",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "25d22209-1e7a-4941-b870-850de40b0067",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.has-list:nth-child(7)",
-      "targets": [
-        ["css=.has-list:nth-child(7)", "css:finder"],
-        ["xpath=//li[7]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "984792d0-b9f7-4b53-9aba-b372e9ed61da",
-      "comment": "",
-      "command": "click",
-      "target": "css=.has-list:nth-child(7) .item-child:nth-child(2) h3",
-      "targets": [
-        ["css=.has-list:nth-child(7) .item-child:nth-child(2) h3", "css:finder"],
-        ["xpath=//li[7]/div/div[2]/a/h3", "xpath:position"],
-        ["xpath=//h3[contains(.,'Thu cũ đổi mới')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "ffeb06f9-0b9c-46b2-a878-53d77e3dd6ef",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return \"realme 5i\"",
-      "targets": [],
-      "value": "key"
-    }, {
-      "id": "b433f0a8-da3f-47f3-ad8e-381ee64abf8c",
-      "comment": "",
-      "command": "executeScript",
-      "target": "return \"realme 11 Pro+ 5G\"",
-      "targets": [],
-      "value": "key1"
-    }, {
-      "id": "ad9999f1-062e-42a2-82af-bed312607d3a",
-      "comment": "",
-      "command": "click",
-      "target": "css=.e-search > input",
-      "targets": [
-        ["css=.e-search > input", "css:finder"],
-        ["xpath=(//input[@name='key'])[2]", "xpath:attributes"],
-        ["xpath=//section[2]/div/div/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "23c25362-9f64-4c5d-bb89-8debefe056a0",
-      "comment": "",
-      "command": "type",
-      "target": "css=.e-search > input",
-      "targets": [
-        ["css=.e-search > input", "css:finder"],
-        ["xpath=(//input[@name='key'])[2]", "xpath:attributes"],
-        ["xpath=//section[2]/div/div/div/input", "xpath:position"]
-      ],
-      "value": "${key}"
-    }, {
-      "id": "230f1b17-1ad0-4cf5-bb1d-e2e8a218addb",
-      "comment": "",
-      "command": "sendKeys",
-      "target": "css=.e-search > input",
-      "targets": [
-        ["css=.e-search > input", "css:finder"],
-        ["xpath=(//input[@name='key'])[2]", "xpath:attributes"],
-        ["xpath=//section[2]/div/div/div/input", "xpath:position"]
-      ],
-      "value": "${KEY_ENTER}"
-    }, {
-      "id": "a91b8df5-58d0-4231-94b4-8f1894ebc286",
-      "comment": "",
-      "command": "click",
-      "target": "css=span:nth-child(2) > b",
-      "targets": [
-        ["css=span:nth-child(2) > b", "css:finder"],
-        ["xpath=//span[2]/b", "xpath:position"],
-        ["xpath=//b[contains(.,'realme 5i (3GB/32GB)')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "80884989-84c9-43d2-8f0b-68514222aca5",
-      "comment": "",
-      "command": "click",
-      "target": "css=.d-status > span",
-      "targets": [
-        ["css=.d-status > span", "css:finder"],
-        ["xpath=//form[@id='frmOrder']/div[2]/span", "xpath:idRelative"],
-        ["xpath=//div[2]/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Chọn tình trạng máy')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "e5bb3505-3b4a-45e4-a368-c9c3970f20d0",
-      "comment": "",
-      "command": "click",
-      "target": "css=.d-list > span:nth-child(3)",
-      "targets": [
-        ["css=.d-list > span:nth-child(3)", "css:finder"],
-        ["xpath=//form[@id='frmOrder']/div[2]/div/span[3]", "xpath:idRelative"],
-        ["xpath=//form/div[2]/div/span[3]", "xpath:position"],
-        ["xpath=//span[contains(.,'Loại 3: Màn chính hãng & Các chức năng hoạt động tốt & Thân, màn trầy xước nặng')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "1a4afc30-d8b0-477a-95e5-adbcbda80e2f",
-      "comment": "",
-      "command": "click",
-      "target": "css=.d-product > span",
-      "targets": [
-        ["css=.d-product > span", "css:finder"],
-        ["xpath=//form[@id='frmOrder']/div[3]/span", "xpath:idRelative"],
-        ["xpath=//form/div[3]/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Chọn sản phẩm muốn đổi')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "4a423096-d627-4f0e-ba6e-5f6c73a5d80b",
-      "comment": "",
-      "command": "click",
-      "target": "css=span:nth-child(15) > b",
-      "targets": [
-        ["css=span:nth-child(15) > b", "css:finder"],
-        ["xpath=//form[@id='frmOrder']/div[3]/div/div/span[15]/b", "xpath:idRelative"],
-        ["xpath=//span[15]/b", "xpath:position"],
-        ["xpath=//b[contains(.,'realme 11 Pro+ 5G')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "34ab2d14-d21e-474e-905b-2cd5903845f8",
-      "comment": "",
-      "command": "click",
-      "target": "css=.s5",
-      "targets": [
-        ["css=.s5", "css:finder"],
-        ["xpath=//form[@id='frmOrder']/div[4]/div[2]/span[5]", "xpath:idRelative"],
-        ["xpath=//div[2]/span[5]", "xpath:position"],
-        ["xpath=//span[contains(.,'Cần thanh toán thêm: 12.610.000₫')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "6e545ed1-34a1-465a-9546-5f4daa33eced",
-      "comment": "",
-      "command": "click",
-      "target": "css=.s2",
-      "targets": [
-        ["css=.s2", "css:finder"],
-        ["xpath=//form[@id='frmOrder']/div[4]/div[2]/span[2]", "xpath:idRelative"],
-        ["xpath=//div[2]/span[2]", "xpath:position"],
-        ["xpath=//span[contains(.,'Sản phẩm đổi mới: realme 11 Pro+ 5G')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "dd75cb8f-a645-4334-b2cb-e8f29773e144",
-      "comment": "",
-      "command": "click",
-      "target": "css=.s5 > b",
-      "targets": [
-        ["css=.s5 > b", "css:finder"],
-        ["xpath=//form[@id='frmOrder']/div[4]/div[2]/span[5]/b", "xpath:idRelative"],
-        ["xpath=//div[2]/span[5]/b", "xpath:position"],
-        ["xpath=//b[contains(.,'12.610.000₫')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "8c66ef86-ddb9-4de9-ad54-5d3d0daeb24e",
-      "comment": "",
-      "command": "click",
-      "target": "css=.s2",
-      "targets": [
-        ["css=.s2", "css:finder"],
-        ["xpath=//form[@id='frmOrder']/div[4]/div[2]/span[2]", "xpath:idRelative"],
-        ["xpath=//div[2]/span[2]", "xpath:position"],
-        ["xpath=//span[contains(.,'Sản phẩm đổi mới: realme 11 Pro+ 5G')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "ae77ffa2-65ca-444c-b237-c0e4ab3ca4bf",
-      "comment": "",
-      "command": "click",
-      "target": "css=.dr-order",
-      "targets": [
-        ["css=.dr-order", "css:finder"],
-        ["xpath=//form[@id='frmOrder']/div[4]/div[3]", "xpath:idRelative"],
-        ["xpath=//form/div[4]/div[3]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "ad7651b8-eee1-44b9-a890-d80923f27a30",
-      "comment": "",
-      "command": "click",
-      "target": "css=.s2",
-      "targets": [
-        ["css=.s2", "css:finder"],
-        ["xpath=//form[@id='frmOrder']/div[4]/div[2]/span[2]", "xpath:idRelative"],
-        ["xpath=//div[2]/span[2]", "xpath:position"],
-        ["xpath=//span[contains(.,'Sản phẩm đổi mới: realme 11 Pro+ 5G')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "70590337-975b-4d9b-a4a3-736f5873de30",
-      "comment": "",
-      "command": "storeText",
-      "target": "css=.s2 > b",
-      "targets": [
-        ["css=.s2 > b", "css:finder"],
-        ["xpath=//form[@id='frmOrder']/div[4]/div[2]/span[2]/b", "xpath:idRelative"],
-        ["xpath=//div[2]/span[2]/b", "xpath:position"]
-      ],
-      "value": "res"
-    }, {
-      "id": "b45a9df9-61d1-499c-b157-078a884b9acf",
-      "comment": "",
-      "command": "click",
-      "target": "css=.dr-info",
-      "targets": [
-        ["css=.dr-info", "css:finder"],
-        ["xpath=//form[@id='frmOrder']/div[4]/div[2]", "xpath:idRelative"],
-        ["xpath=//form/div[4]/div[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "306382ca-ebd5-4844-9701-bc57a8e2068b",
-      "comment": "",
-      "command": "echo",
-      "target": "${key1}",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "1b8cf444-3c59-4473-a08d-2d3d8a3238e6",
-      "comment": "",
-      "command": "echo",
-      "target": "${res}",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "69b2e077-6318-45e7-bad5-e14bdd7cb951",
-      "comment": "",
-      "command": "verify",
-      "target": "key1",
-      "targets": [],
-      "value": "${res}"
-    }, {
-      "id": "b681ab62-8f59-47ac-a3b4-53ca9e854b9a",
-      "comment": "",
-      "command": "close",
-      "target": "",
-      "targets": [],
-      "value": ""
-    }]
-  }, {
     "id": "92f7af6c-12a2-4aee-b35b-8520be5f21d6",
     "name": "Test case 15",
     "commands": [{
@@ -666,6 +400,202 @@
       ],
       "value": "Lỗi giao dịch: tài khoản không tồn tại"
     }]
+  }, {
+    "id": "52fb541b-e373-4889-9e79-7e8aefd9dd35",
+    "name": "Test case 14",
+    "commands": [{
+      "id": "a500bb86-5d65-4f7a-aa76-f00606ba0521",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62281b1d-d6a4-4025-be61-cc3ae278cc2a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87cb2582-3413-4c10-9c3c-c8683eb23a07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-list:nth-child(7) .has-child",
+      "targets": [
+        ["css=.has-list:nth-child(7) .has-child", "css:finder"],
+        ["xpath=//li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Máy cũ, Thu cũ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97b6c7dc-a2ed-4b3a-ab23-5da2aabed730",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"Samsung Galaxy Z Flip3\"",
+      "targets": [],
+      "value": "search"
+    }, {
+      "id": "c1ef35b2-45ce-4436-ba65-f5efb59cbcf4",
+      "comment": "",
+      "command": "click",
+      "target": "id=skw",
+      "targets": [
+        ["id=skw", "id"],
+        ["name=key", "name"],
+        ["css=#skw", "css:finder"],
+        ["xpath=//input[@id='skw']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/header/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99094de9-416f-4b0c-8d77-b0c6916ad669",
+      "comment": "",
+      "command": "type",
+      "target": "id=skw",
+      "targets": [
+        ["id=skw", "id"],
+        ["name=key", "name"],
+        ["css=#skw", "css:finder"],
+        ["xpath=//input[@id='skw']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/header/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${search}"
+    }, {
+      "id": "686f8570-b3a8-4fe7-b8ce-18457d515070",
+      "comment": "",
+      "command": "click",
+      "target": "css=button > .icon-search",
+      "targets": [
+        ["css=button > .icon-search", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/header/div/div/form/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "869a446f-a14e-40e5-8426-0a3ccf18da95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prdItem:nth-child(1) img",
+      "targets": [
+        ["css=.prdItem:nth-child(1) img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_75/https://cdn.tgdd.vn/Products/Images/42/248283/samsung-galaxy-z-flip-3-violet-1-200x200.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/section/div/div[3]/ul/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99b0246e-54a5-4f09-b9be-f494c2e39e15",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=/html/body/div/div/div/section/div/div/div[5]/div",
+      "targets": [],
+      "value": "count"
+    }, {
+      "id": "32a61e1d-a50a-4dda-a7ee-7c4c79dadcc1",
+      "comment": "",
+      "command": "echo",
+      "target": "${count}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4ebe935-5381-4de5-a821-0dc09550c7ec",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "item"
+    }, {
+      "id": "d7990bcf-d267-4ec3-abaf-4bac448089ed",
+      "comment": "",
+      "command": "while",
+      "target": "${item}<=${count}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b211f6e-f940-4121-9315-7e296cc3ad3c",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.lstProdsItem:nth-child(${item}) .prdName",
+      "targets": [],
+      "value": "name"
+    }, {
+      "id": "b82c7aff-92f1-4966-8f61-8cfc3aeaa01c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.lstProdsItem:nth-child(${item}) .lblInvenType",
+      "targets": [
+        ["css=.lstProdsItem:nth-child(1) .lblInvenType", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/section/div/div/div[5]/div/div/a/div/div/label", "xpath:idRelative"],
+        ["xpath=//a/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Đã sử dụng')]", "xpath:innerText"]
+      ],
+      "value": "Đã sử dụng"
+    }, {
+      "id": "fab4ec59-e84d-4a4a-8d8e-10572bb99458",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${name}.toUpperCase().includes(${search}.toUpperCase())",
+      "targets": [],
+      "value": "check"
+    }, {
+      "id": "387ed102-3f0f-4074-b323-a1859aeef232",
+      "comment": "",
+      "command": "verify",
+      "target": "check",
+      "targets": [],
+      "value": "true"
+    }, {
+      "id": "1c519072-071a-42e1-8f1f-0e7fff0d6e10",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${item} +1",
+      "targets": [],
+      "value": "item"
+    }, {
+      "id": "81e049c0-a209-476e-ae78-37a91e5aac43",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c042b13-14a1-4768-92f6-b681477d731d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lstProdsItem:nth-child(1) img",
+      "targets": [
+        ["css=.lstProdsItem:nth-child(1) img", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/section/div/div/div[5]/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a1f89b8-565f-429c-bc00-46dad5b4a2fc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.titleName",
+      "targets": [
+        ["css=.titleName", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/section/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "Điện thoại Samsung Galaxy Z Flip3 5G 256GB"
+    }, {
+      "id": "36d1c37e-1bbb-4c96-82a5-4b697cf1e048",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.typeInven",
+      "targets": [
+        ["css=.typeInven", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/section/div/div/div[2]/div/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Sản phẩm đã sử dụng')]", "xpath:innerText"]
+      ],
+      "value": "Sản phẩm đã sử dụng"
+    }]
   }],
   "suites": [{
     "id": "493ce2f3-0f58-4e24-9aa2-48776da49361",
@@ -673,7 +603,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["01d0335c-b71d-4960-ac3a-21264edd6899"]
+    "tests": []
   }],
   "urls": ["https://www.thegioididong.com/"],
   "plugins": []
