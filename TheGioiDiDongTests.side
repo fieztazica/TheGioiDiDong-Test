@@ -2,7 +2,11 @@
   "id": "eaaf2b5b-c673-47e7-a450-38e4a6cb0de2",
   "version": "2.0",
   "name": "TheGioiDiDongTests",
+<<<<<<< HEAD
   "url": "https://www.thegioididong.com",
+=======
+  "url": "https://thegioididong.com",
+>>>>>>> 066dc308eb87c2c3b649b64424b37fbc28ae892f
   "tests": [{
     "id": "01d0335c-b71d-4960-ac3a-21264edd6899",
     "name": "Muacudoimoi",
