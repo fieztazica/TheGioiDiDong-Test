@@ -2,11 +2,725 @@
   "id": "eaaf2b5b-c673-47e7-a450-38e4a6cb0de2",
   "version": "2.0",
   "name": "TheGioiDiDongTests",
-  "url": "",
+  "url": "https://www.thegioididong.com",
   "tests": [{
     "id": "01d0335c-b71d-4960-ac3a-21264edd6899",
-    "name": "Untitled",
-    "commands": []
+    "name": "Muacudoimoi",
+    "commands": [{
+      "id": "61ebc439-c831-44e1-a23f-85daf419bc31",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40025b38-67cc-4fd8-8048-0e8c232994bc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25d22209-1e7a-4941-b870-850de40b0067",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.has-list:nth-child(7)",
+      "targets": [
+        ["css=.has-list:nth-child(7)", "css:finder"],
+        ["xpath=//li[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "984792d0-b9f7-4b53-9aba-b372e9ed61da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-list:nth-child(7) .item-child:nth-child(2) h3",
+      "targets": [
+        ["css=.has-list:nth-child(7) .item-child:nth-child(2) h3", "css:finder"],
+        ["xpath=//li[7]/div/div[2]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Thu cũ đổi mới')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffeb06f9-0b9c-46b2-a878-53d77e3dd6ef",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"realme 5i\"",
+      "targets": [],
+      "value": "key"
+    }, {
+      "id": "b433f0a8-da3f-47f3-ad8e-381ee64abf8c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"realme 11 Pro+ 5G\"",
+      "targets": [],
+      "value": "key1"
+    }, {
+      "id": "ad9999f1-062e-42a2-82af-bed312607d3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.e-search > input",
+      "targets": [
+        ["css=.e-search > input", "css:finder"],
+        ["xpath=(//input[@name='key'])[2]", "xpath:attributes"],
+        ["xpath=//section[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23c25362-9f64-4c5d-bb89-8debefe056a0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.e-search > input",
+      "targets": [
+        ["css=.e-search > input", "css:finder"],
+        ["xpath=(//input[@name='key'])[2]", "xpath:attributes"],
+        ["xpath=//section[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${key}"
+    }, {
+      "id": "230f1b17-1ad0-4cf5-bb1d-e2e8a218addb",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.e-search > input",
+      "targets": [
+        ["css=.e-search > input", "css:finder"],
+        ["xpath=(//input[@name='key'])[2]", "xpath:attributes"],
+        ["xpath=//section[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a91b8df5-58d0-4231-94b4-8f1894ebc286",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(2) > b",
+      "targets": [
+        ["css=span:nth-child(2) > b", "css:finder"],
+        ["xpath=//span[2]/b", "xpath:position"],
+        ["xpath=//b[contains(.,'realme 5i (3GB/32GB)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80884989-84c9-43d2-8f0b-68514222aca5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-status > span",
+      "targets": [
+        ["css=.d-status > span", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Chọn tình trạng máy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5bb3505-3b4a-45e4-a368-c9c3970f20d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-list > span:nth-child(3)",
+      "targets": [
+        ["css=.d-list > span:nth-child(3)", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[2]/div/span[3]", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Loại 3: Màn chính hãng & Các chức năng hoạt động tốt & Thân, màn trầy xước nặng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a4afc30-d8b0-477a-95e5-adbcbda80e2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-product > span",
+      "targets": [
+        ["css=.d-product > span", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[3]/span", "xpath:idRelative"],
+        ["xpath=//form/div[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Chọn sản phẩm muốn đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a423096-d627-4f0e-ba6e-5f6c73a5d80b",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(15) > b",
+      "targets": [
+        ["css=span:nth-child(15) > b", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[3]/div/div/span[15]/b", "xpath:idRelative"],
+        ["xpath=//span[15]/b", "xpath:position"],
+        ["xpath=//b[contains(.,'realme 11 Pro+ 5G')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34ab2d14-d21e-474e-905b-2cd5903845f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s5",
+      "targets": [
+        ["css=.s5", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[4]/div[2]/span[5]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[5]", "xpath:position"],
+        ["xpath=//span[contains(.,'Cần thanh toán thêm: 12.610.000₫')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e545ed1-34a1-465a-9546-5f4daa33eced",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s2",
+      "targets": [
+        ["css=.s2", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[4]/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Sản phẩm đổi mới: realme 11 Pro+ 5G')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd75cb8f-a645-4334-b2cb-e8f29773e144",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s5 > b",
+      "targets": [
+        ["css=.s5 > b", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[4]/div[2]/span[5]/b", "xpath:idRelative"],
+        ["xpath=//div[2]/span[5]/b", "xpath:position"],
+        ["xpath=//b[contains(.,'12.610.000₫')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c66ef86-ddb9-4de9-ad54-5d3d0daeb24e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s2",
+      "targets": [
+        ["css=.s2", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[4]/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Sản phẩm đổi mới: realme 11 Pro+ 5G')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae77ffa2-65ca-444c-b237-c0e4ab3ca4bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dr-order",
+      "targets": [
+        ["css=.dr-order", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[4]/div[3]", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad7651b8-eee1-44b9-a890-d80923f27a30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s2",
+      "targets": [
+        ["css=.s2", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[4]/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Sản phẩm đổi mới: realme 11 Pro+ 5G')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70590337-975b-4d9b-a4a3-736f5873de30",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.s2 > b",
+      "targets": [
+        ["css=.s2 > b", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[4]/div[2]/span[2]/b", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]/b", "xpath:position"]
+      ],
+      "value": "res"
+    }, {
+      "id": "b45a9df9-61d1-499c-b157-078a884b9acf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dr-info",
+      "targets": [
+        ["css=.dr-info", "css:finder"],
+        ["xpath=//form[@id='frmOrder']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "306382ca-ebd5-4844-9701-bc57a8e2068b",
+      "comment": "",
+      "command": "echo",
+      "target": "${key1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b8cf444-3c59-4473-a08d-2d3d8a3238e6",
+      "comment": "",
+      "command": "echo",
+      "target": "${res}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69b2e077-6318-45e7-bad5-e14bdd7cb951",
+      "comment": "",
+      "command": "verify",
+      "target": "key1",
+      "targets": [],
+      "value": "${res}"
+    }, {
+      "id": "b681ab62-8f59-47ac-a3b4-53ca9e854b9a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "775ad3b8-7f83-4cc4-87a3-e2e4b46fa524",
+    "name": "Lichsumuahang",
+    "commands": [{
+      "id": "fad48ff9-9fdf-45c0-a272-be240ed56908",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bcac534-a8d0-4117-97d7-31a2648beab8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x955",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0b9006f-8d64-4c5b-a63b-ff9f1d45b041",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản & Đơn hàng",
+      "targets": [
+        ["linkText=Tài khoản & Đơn hàng", "linkText"],
+        ["css=.name-order", "css:finder"],
+        ["xpath=//a[contains(text(),'Tài khoản & Đơn hàng')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/lich-su-mua-hang')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tài khoản & Đơn hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e10175a-2778-48fe-8181-6c0ed67af16a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.order-item:nth-child(1) .head-info",
+      "targets": [
+        ["css=.order-item:nth-child(1) .head-info", "css:finder"],
+        ["xpath=//div[@id='list_order']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ffb8e3c-b7fe-4ba3-8630-077ae23b4d2f",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.order-item:nth-child(1) > .item-head span",
+      "targets": [
+        ["css=.order-item:nth-child(1) > .item-head span", "css:finder"],
+        ["xpath=//div[@id='list_order']/div/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'#00487SH23110597738')]", "xpath:innerText"]
+      ],
+      "value": "id1"
+    }]
+  }, {
+    "id": "92f7af6c-12a2-4aee-b35b-8520be5f21d6",
+    "name": "Kiemtratonkho",
+    "commands": [{
+      "id": "770aa691-d6f5-4be7-8d9d-8f524b01f86f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b49a37d-5348-4f77-94f9-e723e1186c7b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "169bbaec-7566-4d61-9b8e-26169fc6f62c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-menu > li:nth-child(1) span",
+      "targets": [
+        ["css=.main-menu > li:nth-child(1) span", "css:finder"],
+        ["xpath=//li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Điện thoại')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9218ae0e-176c-4fa9-893e-fca8a527c449",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(1) .thumb",
+      "targets": [
+        ["css=.item:nth-child(1) .thumb", "css:finder"],
+        ["xpath=//img[@alt='iPhone 15 Pro Max']", "xpath:img"],
+        ["xpath=//section[@id='categoryPage']/div[3]/ul/li/a/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "418f090c-2dfa-4f58-a242-968e18f95486",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đổi",
+      "targets": [
+        ["linkText=Đổi", "linkText"],
+        ["css=.onoffdelibox", "css:finder"],
+        ["xpath=//a[contains(text(),'Đổi')]", "xpath:link"],
+        ["xpath=//a[@onclick='OpenLocation(true)']", "xpath:attributes"],
+        ["xpath=//div[@id='thoi-gian-giao-hang']/div/div/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:')])[92]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/div/div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17425153-6466-4270-a9cc-d43817f0edea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Hồ Chí Minh",
+      "targets": [
+        ["linkText=Hồ Chí Minh", "linkText"],
+        ["css=#lst-prov li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Hồ Chí Minh')]", "xpath:link"],
+        ["xpath=//a[@onclick='changePoupProvinceV2(3, this)']", "xpath:attributes"],
+        ["xpath=//div[@id='lst-prov']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[4]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hồ Chí Minh')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27ed5c85-addf-4510-831a-703ca30fe691",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hồ Chí Minh",
+      "targets": [
+        ["linkText=Hồ Chí Minh", "linkText"],
+        ["css=#lst-prov li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Hồ Chí Minh')]", "xpath:link"],
+        ["xpath=//a[@onclick='changePoupProvinceV2(3, this)']", "xpath:attributes"],
+        ["xpath=//div[@id='lst-prov']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[4]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hồ Chí Minh')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e15105a-7713-46ed-ac7e-0db31687907e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=ul:nth-child(1) > li:nth-child(1) > .active",
+      "targets": [
+        ["css=ul:nth-child(1) > li:nth-child(1) > .active", "css:finder"],
+        ["xpath=//a[contains(text(),'Hồ Chí Minh')]", "xpath:link"],
+        ["xpath=//a[@onclick='changePoupProvinceV2(3, this)']", "xpath:attributes"],
+        ["xpath=//div[@id='lst-prov']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[4]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'\n                    Hồ Chí Minh\n                ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "488cd403-5988-4528-bb32-86c077bfbb77",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TP.Thủ Đức",
+      "targets": [
+        ["linkText=TP.Thủ Đức", "linkText"],
+        ["css=#lst-dis li:nth-child(22) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TP.Thủ Đức')]", "xpath:link"],
+        ["xpath=//a[@onclick='changePoupDistrictV2(3,2087, this)']", "xpath:attributes"],
+        ["xpath=//div[@id='lst-dis']/div/ul/li[22]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[88]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[22]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TP.Thủ Đức')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d055bae2-d8c2-456c-9f78-9fac147b6ed3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Phường Tăng Nhơn Phú A",
+      "targets": [
+        ["linkText=Phường Tăng Nhơn Phú A", "linkText"],
+        ["css=#lst-ward li:nth-child(28) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Phường Tăng Nhơn Phú A')]", "xpath:link"],
+        ["xpath=//a[@onclick='changePoupWardV2(27114, this)']", "xpath:attributes"],
+        ["xpath=//div[@id='lst-ward']/div/ul/li[28]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[116]", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li[28]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Phường Tăng Nhơn Phú A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12c89582-f67e-495a-9e2d-dfcc52d8fd76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.deliverytime",
+      "targets": [
+        ["css=.deliverytime", "css:finder"],
+        ["xpath=//div[@id='thoi-gian-giao-hang']/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd4c108f-dbdd-4791-81ec-642f2149bfb6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.con_hang:nth-child(3)",
+      "targets": [
+        ["css=.con_hang:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='thoi-gian-giao-hang']/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Miễn phí giao hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4a4599c-53be-4648-9bf4-4dad2d73b8b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.deliverytime",
+      "targets": [
+        ["css=.deliverytime", "css:finder"],
+        ["xpath=//div[@id='thoi-gian-giao-hang']/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ae1cc41-b943-4104-abc9-15c581557686",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"Hôm nay\"",
+      "targets": [],
+      "value": "check"
+    }, {
+      "id": "933786c9-8669-413a-97cb-ee042c569036",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.con_hang:nth-child(2)",
+      "targets": [
+        ["css=.con_hang:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='thoi-gian-giao-hang']/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Giao hàng Từ 16h - 18h hôm nay (25/12)')]", "xpath:innerText"]
+      ],
+      "value": "check1"
+    }, {
+      "id": "7bebd135-3749-46e0-a80f-8d0c971424a7",
+      "comment": "",
+      "command": "echo",
+      "target": "${check}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "087be614-c9d0-4556-a778-0750d5a58b2c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${check1}.toUpperCase().includes(${check}.toUpperCase())",
+      "targets": [],
+      "value": "done"
+    }, {
+      "id": "a7f62892-409b-4b2b-8249-f4b4c1328223",
+      "comment": "",
+      "command": "verify",
+      "target": "done",
+      "targets": [],
+      "value": "true"
+    }, {
+      "id": "0c8ca47a-3059-42d7-80c0-955236c6e6e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.con_hang:nth-child(3)",
+      "targets": [
+        ["css=.con_hang:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='thoi-gian-giao-hang']/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Miễn phí giao hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c29be97a-27a5-4beb-b9bb-b7346dff89fb",
+    "name": "DichvuthanhtoanNet",
+    "commands": [{
+      "id": "68c72936-3b8e-4793-8528-7be7bc80f704",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b487dec-d307-4795-b893-2fc70fd95764",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81a7acd7-4ee8-490a-9367-14aa7b5c0545",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-child:nth-child(1)",
+      "targets": [
+        ["css=.has-child:nth-child(1)", "css:finder"],
+        ["xpath=//li[10]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Dịch vụ tiện ích')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "900de919-a1ca-4789-a204-f85b80a731ea",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(1) input",
+      "targets": [
+        ["css=.form-control:nth-child(1) input", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[3]/div/div/div/div/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "SGAAB9003"
+    }, {
+      "id": "57d26133-dc2a-4954-be10-0c0e7ca45625",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pay > li:nth-child(4) span",
+      "targets": [
+        ["css=.pay > li:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div[2]/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Đóng tiền NET FPT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "206d69bf-8692-42b2-adf0-32999b913233",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(2) > .cartype",
+      "targets": [],
+      "value": "0397312844"
+    }, {
+      "id": "d8c77982-e623-4906-a23f-d2ea5354b17c",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-8293",
+      "targets": [
+        ["id=btn-8293", "id"],
+        ["linkText=Tiếp tục", "linkText"],
+        ["css=#btn-8293", "css:finder"],
+        ["xpath=//a[contains(text(),'Tiếp tục')]", "xpath:link"],
+        ["xpath=//a[@id='btn-8293']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[3]/div/div/div/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tiếp tục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14171f7d-f4e5-48f8-9e8d-e7fb1fff68f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.normalPopup__content",
+      "targets": [
+        ["css=.normalPopup__content", "css:finder"],
+        ["xpath=//div[@id='normal-popup']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d173d78-245e-488b-8ba5-c76041066c68",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.normalPopup__content p",
+      "targets": [
+        ["css=.normalPopup__content p", "css:finder"],
+        ["xpath=//div[@id='normal-popup']/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Lỗi giao dịch: tài khoản không nợ cước')]", "xpath:innerText"]
+      ],
+      "value": "Lỗi giao dịch: tài khoản không nợ cước"
+    }, {
+      "id": "a916780d-c66d-4932-9b66-aa7462391be9",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn_normaPopup",
+      "targets": [
+        ["id=btn_normaPopup", "id"],
+        ["linkText=Đóng", "linkText"],
+        ["css=#btn_normaPopup", "css:finder"],
+        ["xpath=(//a[contains(text(),'Đóng')])[2]", "xpath:link"],
+        ["xpath=//a[@id='btn_normaPopup']", "xpath:attributes"],
+        ["xpath=//div[@id='normal-popup']/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[4]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0c1b0dd-2bf7-4c66-ac28-67d60ff288c7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(1) input",
+      "targets": [
+        ["css=.form-control:nth-child(1) input", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[3]/div/div/div/div/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "SGAAB900"
+    }, {
+      "id": "f083ca62-5d75-4051-84f4-e7b4b94c4cb3",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(2) > .cartype",
+      "targets": [],
+      "value": "0397312844"
+    }, {
+      "id": "f314e9e9-33b5-4080-9e41-00eb1bc42829",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-8293",
+      "targets": [
+        ["id=btn-8293", "id"],
+        ["linkText=Tiếp tục", "linkText"],
+        ["css=#btn-8293", "css:finder"],
+        ["xpath=//a[contains(text(),'Tiếp tục')]", "xpath:link"],
+        ["xpath=//a[@id='btn-8293']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[3]/div/div/div/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tiếp tục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dd8a936-510b-45eb-9044-fe80eaba1a40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.normalPopup__content",
+      "targets": [
+        ["css=.normalPopup__content", "css:finder"],
+        ["xpath=//div[@id='normal-popup']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e9e29be-3927-4479-b901-f584ec4f469d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.normalPopup__content p",
+      "targets": [
+        ["css=.normalPopup__content p", "css:finder"],
+        ["xpath=//div[@id='normal-popup']/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Lỗi giao dịch: tài khoản không nợ cước')]", "xpath:innerText"]
+      ],
+      "value": "Lỗi giao dịch: tài khoản không tồn tại"
+    }]
   }],
   "suites": [{
     "id": "493ce2f3-0f58-4e24-9aa2-48776da49361",
@@ -16,6 +730,6 @@
     "timeout": 300,
     "tests": ["01d0335c-b71d-4960-ac3a-21264edd6899"]
   }],
-  "urls": [],
+  "urls": ["https://www.thegioididong.com/"],
   "plugins": []
 }
