@@ -2,14 +2,10 @@
   "id": "eaaf2b5b-c673-47e7-a450-38e4a6cb0de2",
   "version": "2.0",
   "name": "TheGioiDiDongTests",
-<<<<<<< HEAD
   "url": "https://www.thegioididong.com",
-=======
-  "url": "https://thegioididong.com",
->>>>>>> 066dc308eb87c2c3b649b64424b37fbc28ae892f
   "tests": [{
     "id": "01d0335c-b71d-4960-ac3a-21264edd6899",
-    "name": "Muacudoimoi",
+    "name": "Test case 14",
     "commands": [{
       "id": "61ebc439-c831-44e1-a23f-85daf419bc31",
       "comment": "",
@@ -274,63 +270,8 @@
       "value": ""
     }]
   }, {
-    "id": "775ad3b8-7f83-4cc4-87a3-e2e4b46fa524",
-    "name": "Lichsumuahang",
-    "commands": [{
-      "id": "fad48ff9-9fdf-45c0-a272-be240ed56908",
-      "comment": "",
-      "command": "open",
-      "target": "/",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "4bcac534-a8d0-4117-97d7-31a2648beab8",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "968x955",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "c0b9006f-8d64-4c5b-a63b-ff9f1d45b041",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Tài khoản & Đơn hàng",
-      "targets": [
-        ["linkText=Tài khoản & Đơn hàng", "linkText"],
-        ["css=.name-order", "css:finder"],
-        ["xpath=//a[contains(text(),'Tài khoản & Đơn hàng')]", "xpath:link"],
-        ["xpath=//a[contains(@href, '/lich-su-mua-hang')]", "xpath:href"],
-        ["xpath=//a[3]", "xpath:position"],
-        ["xpath=//a[contains(.,'Tài khoản & Đơn hàng')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "9e10175a-2778-48fe-8181-6c0ed67af16a",
-      "comment": "",
-      "command": "click",
-      "target": "css=.order-item:nth-child(1) .head-info",
-      "targets": [
-        ["css=.order-item:nth-child(1) .head-info", "css:finder"],
-        ["xpath=//div[@id='list_order']/div/div/div", "xpath:idRelative"],
-        ["xpath=//div[2]/div[2]/div/div/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "1ffb8e3c-b7fe-4ba3-8630-077ae23b4d2f",
-      "comment": "",
-      "command": "storeText",
-      "target": "css=.order-item:nth-child(1) > .item-head span",
-      "targets": [
-        ["css=.order-item:nth-child(1) > .item-head span", "css:finder"],
-        ["xpath=//div[@id='list_order']/div/div/div/div/span", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/div/div/span", "xpath:position"],
-        ["xpath=//span[contains(.,'#00487SH23110597738')]", "xpath:innerText"]
-      ],
-      "value": "id1"
-    }]
-  }, {
     "id": "92f7af6c-12a2-4aee-b35b-8520be5f21d6",
-    "name": "Kiemtratonkho",
+    "name": "Test case 15",
     "commands": [{
       "id": "770aa691-d6f5-4be7-8d9d-8f524b01f86f",
       "comment": "",
@@ -552,7 +493,7 @@
     }]
   }, {
     "id": "c29be97a-27a5-4beb-b9bb-b7346dff89fb",
-    "name": "DichvuthanhtoanNet",
+    "name": "Test case 16",
     "commands": [{
       "id": "68c72936-3b8e-4793-8528-7be7bc80f704",
       "comment": "",
