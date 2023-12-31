@@ -451,12 +451,11 @@
       "id": "d6c96672-cee4-49d2-a5ef-7fbe716da6cb",
       "comment": "",
       "command": "click",
-      "target": "css=.slick-current > div:nth-child(1) .lazyloaded",
+      "target": "css=.listproduct > .item:nth-child(1) > .main-contain",
       "targets": [
-        ["css=.slick-current > div:nth-child(1) .lazyloaded", "css:finder"],
-        ["xpath=//img[@alt='iPhone 15 Plus 128GB']", "xpath:img"],
-        ["xpath=//div[@id='flashsale']/div[3]/div/div/div/div/div/div/a/div/img", "xpath:idRelative"],
-        ["xpath=//a/div/img", "xpath:position"]
+        ["css=.listproduct > .item:nth-child(1) > .main-contain", "css:finder"],
+        ["xpath=(//a[contains(@href, '/dtdd/iphone-14-pro-max-256gb')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -748,6 +747,27 @@
       ],
       "value": ""
     }, {
+      "id": "d98efa7c-b595-4e89-92c9-65ae28d9693b",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b00d46be-2e00-4a86-b53b-c4e0e34594b0",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d217959-bb72-47a0-a51d-c562b299ec5c",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "3c2737fd-93bf-42a1-8982-c8ea8aed55ce",
       "comment": "",
       "command": "storeText",
@@ -810,7 +830,21 @@
       "id": "3bcb86b6-099e-4a0c-844c-ae3901ff1bf5",
       "comment": "",
       "command": "if",
-      "target": "${check}",
+      "target": "!${check}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04e8dc47-a1b1-46d4-ae1a-296fb1fd0a0f",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 0",
+      "targets": [],
+      "value": "dem"
+    }, {
+      "id": "15260dd8-1c63-4515-b723-c3bebde60126",
+      "comment": "",
+      "command": "end",
+      "target": "",
       "targets": [],
       "value": ""
     }, {
@@ -820,13 +854,6 @@
       "target": "return ${giaTru}",
       "targets": [],
       "value": "giaTruCheck"
-    }, {
-      "id": "15260dd8-1c63-4515-b723-c3bebde60126",
-      "comment": "",
-      "command": "end",
-      "target": "",
-      "targets": [],
-      "value": ""
     }, {
       "id": "493756a2-dd4e-461c-9631-03ad887b4d12",
       "comment": "",
@@ -973,7 +1000,7 @@
     }, {
       "id": "fd881bae-32f7-4991-bf5a-aa74dc4a3db3",
       "comment": "",
-      "command": "echo",
+      "command": "//echo",
       "target": "${timduocht}",
       "targets": [],
       "value": ""
@@ -1054,14 +1081,14 @@
     }, {
       "id": "ae817b2f-8e2f-4709-a851-c8d54e6e1fb4",
       "comment": "",
-      "command": "//echo",
+      "command": "echo",
       "target": "${soluong}",
       "targets": [],
       "value": ""
     }, {
       "id": "93df5c1b-70f6-4641-8661-f5d88a882e83",
       "comment": "",
-      "command": "//echo",
+      "command": "echo",
       "target": "${hethongtim}",
       "targets": [],
       "value": ""
@@ -2077,13 +2104,6 @@
       ],
       "value": ""
     }, {
-      "id": "30b09c75-b665-4b08-a247-33a4bc45b6f1",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,116)",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "a2cf322e-ba0e-40e1-b621-5d19447efee2",
       "comment": "",
       "command": "click",
@@ -2285,14 +2305,31 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "60e6c7d8-b91b-4566-8cce-093583b0eb44",
+      "id": "6aeaf408-a5e5-4485-a8f4-375138fc1717",
       "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,6359)",
-      "targets": [],
+      "command": "click",
+      "target": "css=.tech-new > .name-box",
+      "targets": [
+        ["css=.tech-new > .name-box", "css:finder"],
+        ["xpath=//div[13]/div/strong", "xpath:position"]
+      ],
       "value": ""
     }, {
       "id": "981f2eca-9fd9-4353-831f-28dbc0d047cc",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7f31a90-6967-4acb-ae74-9f1d2cbfa8b9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5050)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59b17e45-2d25-4d0b-bc3e-159047d3ec70",
       "comment": "",
       "command": "",
       "target": "",
@@ -2445,7 +2482,7 @@
     }, {
       "id": "9b49a37d-5348-4f77-94f9-e723e1186c7b",
       "comment": "",
-      "command": "setWindowSize",
+      "command": "//setWindowSize",
       "target": "1936x1048",
       "targets": [],
       "value": ""
@@ -2662,7 +2699,7 @@
     }, {
       "id": "8b487dec-d307-4795-b893-2fc70fd95764",
       "comment": "",
-      "command": "setWindowSize",
+      "command": "//setWindowSize",
       "target": "1936x1048",
       "targets": [],
       "value": ""
@@ -2675,6 +2712,25 @@
         ["css=.has-child:nth-child(1)", "css:finder"],
         ["xpath=//li[10]/a/span", "xpath:position"],
         ["xpath=//span[contains(.,'Dịch vụ tiện ích')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "775b486a-6518-47cf-9d06-6dcc36ba748a",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "linkText=Đóng tiền NET FPT",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa4be447-77ea-40e8-b88d-ddb77b775e8e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Đóng tiền NET FPT')]",
+      "targets": [
+        ["css=.pay > li:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div[2]/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Đóng tiền NET FPT')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -2693,20 +2749,29 @@
       "id": "c84f874f-0f3d-41ab-826b-9c99042f8a50",
       "comment": "",
       "command": "click",
-      "target": "css=.pay > li:nth-child(4) span",
+      "target": "id=customer-phone",
       "targets": [
-        ["css=.pay > li:nth-child(4) span", "css:finder"],
-        ["xpath=//div[@id='__layout']/div/section/div[2]/div[2]/ul/li[4]/a/span", "xpath:idRelative"],
-        ["xpath=//div[2]/ul/li[4]/a/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Đóng tiền NET FPT')]", "xpath:innerText"]
+        ["id=customer-phone", "id"],
+        ["name=customer-phone", "name"],
+        ["css=#customer-phone", "css:finder"],
+        ["xpath=//input[@id='customer-phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[3]/div/div/div/div/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
       ],
       "value": ""
     }, {
       "id": "206d69bf-8692-42b2-adf0-32999b913233",
       "comment": "",
       "command": "type",
-      "target": "css=.form-control:nth-child(2) > .cartype",
-      "targets": [],
+      "target": "id=customer-phone",
+      "targets": [
+        ["id=customer-phone", "id"],
+        ["name=customer-phone", "name"],
+        ["css=#customer-phone", "css:finder"],
+        ["xpath=//input[@id='customer-phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[3]/div/div/div/div/div/div[2]/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
       "value": "0397312844"
     }, {
       "id": "d8c77982-e623-4906-a23f-d2ea5354b17c",
@@ -2730,11 +2795,7 @@
       "comment": "",
       "command": "click",
       "target": "css=.normalPopup__content",
-      "targets": [
-        ["css=.normalPopup__content", "css:finder"],
-        ["xpath=//div[@id='normal-popup']/div[2]", "xpath:idRelative"],
-        ["xpath=//div[3]/div/div[2]/div/div[2]", "xpath:position"]
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "8d173d78-245e-488b-8ba5-c76041066c68",
@@ -2860,7 +2921,7 @@
     }, {
       "id": "62281b1d-d6a4-4025-be61-cc3ae278cc2a",
       "comment": "",
-      "command": "setWindowSize",
+      "command": "//setWindowSize",
       "target": "1936x1048",
       "targets": [],
       "value": ""
@@ -3015,6 +3076,352 @@
       "target": "",
       "targets": [],
       "value": ""
+    }]
+  }, {
+    "id": "a2091c94-8306-4f9f-8f21-f10d9416a7ef",
+    "name": "Test case 18",
+    "commands": [{
+      "id": "6ecf852a-a3db-44d7-9f35-d195690db0ae",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thegioididong.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "027e1ebd-e3cb-49e4-90cb-fd26d9237e71",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "958x1031",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0947c62-9454-4f06-8a1f-2c9cca398a6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) i > img",
+      "targets": [
+        ["css=li:nth-child(1) i > img", "css:finder"],
+        ["xpath=//img[@alt='Điện thoại']", "xpath:img"],
+        ["xpath=//i/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4af9a86-c05c-4897-8e70-877f78b54c2b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=So sánh",
+      "targets": [
+        ["linkText=So sánh", "linkText"],
+        ["css=.item:nth-child(1) > .item-ss", "css:finder"],
+        ["xpath=//section[@id='categoryPage']/div[3]/ul/li/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[75]", "xpath:href"],
+        ["xpath=//li/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,' So sánh')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f4cd57b-12d9-49e3-8c8c-cee022324eb6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=So sánh",
+      "targets": [
+        ["linkText=So sánh", "linkText"],
+        ["css=.item:nth-child(2) > .item-ss", "css:finder"],
+        ["xpath=//section[@id='categoryPage']/div[3]/ul/li[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[76]", "xpath:href"],
+        ["xpath=//li[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,' So sánh')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05733e34-d0a7-443a-9b69-58a8cc682cda",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=So sánh",
+      "targets": [
+        ["linkText=So sánh", "linkText"],
+        ["css=.item:nth-child(3) > .item-ss", "css:finder"],
+        ["xpath=//section[@id='categoryPage']/div[3]/ul/li[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[77]", "xpath:href"],
+        ["xpath=//li[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,' So sánh')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22c544c3-5160-4413-b2d2-89151ea46908",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=So sánh",
+      "targets": [
+        ["linkText=So sánh", "linkText"],
+        ["css=.item:nth-child(3) > .item-ss", "css:finder"],
+        ["xpath=//section[@id='categoryPage']/div[3]/ul/li[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[77]", "xpath:href"],
+        ["xpath=//li[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,' So sánh')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef01391a-0f50-4558-8bc6-ed510bb77c62",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.item:nth-child(3) > .item-ss",
+      "targets": [
+        ["css=.item:nth-child(3) > .item-ss", "css:finder"],
+        ["xpath=(//a[contains(text(),'Đã thêm so sánh')])[3]", "xpath:link"],
+        ["xpath=//section[@id='categoryPage']/div[3]/ul/li[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[77]", "xpath:href"],
+        ["xpath=//li[3]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7734a567-8218-4498-b09a-dd39245b54fc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=So sánh ngay",
+      "targets": [
+        ["linkText=So sánh ngay", "linkText"],
+        ["css=.doss", "css:finder"],
+        ["xpath=//a[contains(text(),'So sánh ngay')]", "xpath:link"],
+        ["xpath=//a[@onclick='doCompare();']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[21]", "xpath:href"],
+        ["xpath=//div[13]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'So sánh ngay')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b6eefd1-3eee-4252-be2f-b83cf1065a4e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.titleoverview > strong",
+      "targets": [
+        ["css=.titleoverview > strong", "css:finder"],
+        ["xpath=//section/div/div/strong", "xpath:position"]
+      ],
+      "value": "SO SÁNH NHANH"
+    }]
+  }, {
+    "id": "5b16bea2-0464-476e-8f3f-631709c6926d",
+    "name": "Test case 19",
+    "commands": [{
+      "id": "42a848ff-c071-492b-8e65-4e5876b11740",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thegioididong.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dfcb899-d5fb-46d5-af3e-3c4eb95a683f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "958x1031",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a2de213-1845-4d68-b9ee-3f79cb55f31e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-menu > li:nth-child(1) span",
+      "targets": [
+        ["css=.main-menu > li:nth-child(1) span", "css:finder"],
+        ["xpath=//li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Điện thoại')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13f2cbd4-2417-48c6-8ccb-79e3d513cb83",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='iPhone 15 Pro Max']",
+      "targets": [
+        ["css=.item:nth-child(1) .thumb", "css:finder"],
+        ["xpath=//img[@alt='iPhone 15 Pro Max']", "xpath:img"],
+        ["xpath=//section[@id='categoryPage']/div[3]/ul/li/a/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7957b8cd-6fa6-45d2-a1fa-0ba5bc6d2a02",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MUA NGAY",
+      "targets": [
+        ["linkText=MUA NGAY", "linkText"],
+        ["css=.btn-buynow", "css:finder"],
+        ["xpath=//a[contains(text(),'MUA NGAY')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[4]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MUA NGAY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad28e485-3abd-4f5b-81e8-699ef17c1e00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ordered:nth-child(9)",
+      "targets": [
+        ["css=.ordered:nth-child(9)", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad3cb3d8-112e-456d-b9c6-c88ab5789f03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box-cart",
+      "targets": [
+        ["css=.box-cart", "css:finder"],
+        ["xpath=//a[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f17152e2-48ac-43fc-ba02-a7dbeca360e7",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=//div[2]/span[2]",
+      "targets": [
+        ["css=.temp-total-money", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"]
+      ],
+      "value": "tonggia"
+    }, {
+      "id": "933932aa-9dbc-4105-828e-22a973b6e012",
+      "comment": "",
+      "command": "//executeScript",
+      "target": "return parseInt(${tonggia}.replace(/[^\\d]+/g, ''))",
+      "targets": [],
+      "value": "tonggia"
+    }, {
+      "id": "f084733b-9d3b-449e-b856-d56b1600aca2",
+      "comment": "",
+      "command": "echo",
+      "target": "${tonggia}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f87b4c6c-d350-4142-907f-614854870450",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d48c5993-1be2-40e6-bd3e-1e04380966f1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div[2]/div[2]",
+      "targets": [
+        ["css=.plus", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/ul/li/div[2]/div[3]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a0db68b-26c9-4ff9-b66b-a70a0935d4e0",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c370063-7810-4740-9a18-daf574e00548",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "023bbb38-5355-4707-a9ed-0cf6fb1bb620",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a119fe87-ba5b-4f1e-9210-c2f454edc1f1",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.temp-total-money",
+      "targets": [
+        ["css=.temp-total-money", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'167.450.000₫')]", "xpath:innerText"]
+      ],
+      "value": "giadoi"
+    }, {
+      "id": "af62f729-9586-4650-bb56-2bf27977af17",
+      "comment": "",
+      "command": "//echo",
+      "target": "${giadoi}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9dee253e-7da7-49c2-b9c6-81b96518bef9",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${giadoi}===${tonggia}",
+      "targets": [],
+      "value": "check"
+    }, {
+      "id": "c13b351e-32ea-44db-8558-a84be933faea",
+      "comment": "",
+      "command": "verify",
+      "target": "check",
+      "targets": [],
+      "value": "false"
+    }, {
+      "id": "1381e955-988a-403c-923b-48e72b1bc522",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div/aside/label",
+      "targets": [
+        ["css=aside > label:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/ul/li/div[2]/div[3]/div/aside/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/aside/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Màu: Titan xanh')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8f09ba3-b562-4991-8474-db795d494c64",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/small",
+      "targets": [
+        ["css=.select-color:nth-child(2) > small", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/ul/li/div[2]/div[3]/div/aside/div/div[2]/small", "xpath:idRelative"],
+        ["xpath=//div[2]/small", "xpath:position"],
+        ["xpath=//small[contains(.,'Titan tự nhiên')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed8cd9e8-d78e-456a-ae6f-5dd79fbd3d07",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.temp-total-money",
+      "targets": [
+        ["css=.temp-total-money", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'167.450.000₫')]", "xpath:innerText"]
+      ],
+      "value": "giadoi"
+    }, {
+      "id": "ba1b6533-bafc-4ff2-9d8f-60b0f753403f",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${giadoi}===${tonggia}",
+      "targets": [],
+      "value": "check"
+    }, {
+      "id": "681ebe7a-b445-469a-8d24-a33d42f1be36",
+      "comment": "",
+      "command": "verify",
+      "target": "check",
+      "targets": [],
+      "value": "false"
     }]
   }],
   "suites": [{
