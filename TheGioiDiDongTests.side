@@ -2957,7 +2957,7 @@
     }]
   }, {
     "id": "5510489c-1097-4782-922b-a5cf1fbd1286",
-    "name": "Test Case 22",
+    "name": "Test Case 23",
     "commands": [{
       "id": "bcc37760-9171-48d2-814b-d7dee511607c",
       "comment": "",
@@ -3047,7 +3047,7 @@
     }]
   }, {
     "id": "3a27f848-80fa-4430-8824-c73e262c050c",
-    "name": "Test Case 23",
+    "name": "Test Case 25",
     "commands": [{
       "id": "77a3d8f6-8652-4529-a4eb-67661742604a",
       "comment": "",
