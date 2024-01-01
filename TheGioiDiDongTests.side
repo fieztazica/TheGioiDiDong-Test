@@ -125,6 +125,17 @@
       ],
       "value": ""
     }, {
+      "id": "23a5df76-694f-413c-a0d7-c761f24bf755",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__cart",
+      "targets": [
+        ["css=.header__cart", "css:finder"],
+        ["xpath=//a[contains(@href, '/cart')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "47310f6a-ef32-4e1f-9179-de68e407b582",
       "comment": "",
       "command": "storeText",
@@ -3422,6 +3433,359 @@
       "target": "check",
       "targets": [],
       "value": "false"
+    }]
+  }, {
+    "id": "8c0f8010-01d3-421b-90d9-5dc056af5d41",
+    "name": "Test case 26",
+    "commands": [{
+      "id": "ae9d08b7-af51-4c20-b579-70b762bd22f7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thegioididong.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b035fb4-6223-4377-aa7d-f2fa722b38ce",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "958x1031",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c2580d4-5ad1-4696-925b-b026d082e4fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.divitem:nth-child(1) > a",
+      "targets": [
+        ["css=.divitem:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/tin-tuc')]", "xpath:href"],
+        ["xpath=//header/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28406eb1-796f-4d97-95af-ab7c98ab6778",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu:nth-child(1) > li:nth-child(2) > a",
+      "targets": [
+        ["css=.menu:nth-child(1) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sản phẩm mới')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/tin-tuc/san-pham')]", "xpath:href"],
+        ["xpath=//section/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f31ea00-4dcf-4927-bb57-0e230884f0ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.productcell:nth-child(3) > a:nth-child(2) > img",
+      "targets": [
+        ["css=.productcell:nth-child(3) > a:nth-child(2) > img", "css:finder"],
+        ["xpath=//img[@alt='Honor 100']", "xpath:img"],
+        ["xpath=//section/div[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0295a3e-7328-4403-810e-6aa801161eab",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=span > b",
+      "targets": [
+        ["css=span > b", "css:finder"],
+        ["xpath=//span/b", "xpath:position"],
+        ["xpath=//b[contains(.,'4')]", "xpath:innerText"]
+      ],
+      "value": "soluong"
+    }, {
+      "id": "13b29af7-4c75-4263-bb57-fafd2066b359",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseInt(${soluong}.replace(/[^\\d.-]/g, \"\"))",
+      "targets": [],
+      "value": "soluong"
+    }, {
+      "id": "7c01489b-ef59-4514-8d31-f77342378d63",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=/html/body/section[1]/aside[1]/ul/li",
+      "targets": [],
+      "value": "kiemtraDem"
+    }, {
+      "id": "ba4f3b24-ea97-4716-ad37-16d6aa6aaaac",
+      "comment": "",
+      "command": "echo",
+      "target": "${kiemtraDem}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39422327-6705-4b78-9d69-a516d00af6ce",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${soluong}==${kiemtraDem}",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "f28245c6-2af3-41b0-b343-d93d7b37e9fe",
+      "comment": "",
+      "command": "verify",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }]
+  }, {
+    "id": "420f3b0e-2b4c-4977-b214-ce74a5586d8a",
+    "name": "Test case 27",
+    "commands": [{
+      "id": "5fb97803-e491-4103-8974-97cffb6ee631",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thegioididong.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59ab2849-de7c-4fc3-99ce-e53267485c81",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1255x1031",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8c7b152-cf70-4c50-98c3-fd13d94844b8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Game App",
+      "targets": [
+        ["linkText=Game App", "linkText"],
+        ["css=.divitem:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Game App')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/game-app')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Game App')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46dfc2b4-d3da-4231-a5cf-854355d06b2b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thegioididong.com/game-app/game-android",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd4a8045-5b6c-4a6d-81ce-cd3de8eb1ad0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listcategory:nth-child(2) li:nth-child(1) span",
+      "targets": [
+        ["css=.listcategory:nth-child(2) li:nth-child(1) span", "css:finder"],
+        ["xpath=//div[2]/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Mô phỏng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "030a466a-aaca-40b8-9068-aff4b846a64c",
+      "comment": "",
+      "command": "storeText",
+      "target": "linkText=Mô phỏng",
+      "targets": [
+        ["linkText=Mô phỏng", "linkText"],
+        ["css=.breadcrumb > a:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Mô phỏng')])[4]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[9]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a[3]", "xpath:position"]
+      ],
+      "value": "theloai"
+    }, {
+      "id": "5f54ca02-4097-4a7f-9aad-017b6ba550e8",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=/html/body/section[1]/div[2]/div[4]/ul/li",
+      "targets": [],
+      "value": "soluong"
+    }, {
+      "id": "a3817f2c-0270-49f9-8d97-46c804067922",
+      "comment": "",
+      "command": "//echo",
+      "target": "${soluong}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6032da4-9d77-4dce-82c3-c79191f2f18b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1==1",
+      "targets": [],
+      "value": "flag"
+    }, {
+      "id": "b8893969-5aec-4c8a-ae11-78016a16aa51",
+      "comment": "",
+      "command": "while",
+      "target": "${soluong}>0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5eee8206-5296-42ff-a436-08bcf0e1f401",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.gameappnewst:nth-child(4) .item:nth-child(${soluong}) span",
+      "targets": [
+        ["css=.gameappnewst:nth-child(4) .item:nth-child(1) span", "css:finder"],
+        ["xpath=//a/div/p/span", "xpath:position"]
+      ],
+      "value": "loai"
+    }, {
+      "id": "40eaabe0-fc3a-421d-9572-33eb439152cd",
+      "comment": "",
+      "command": "echo",
+      "target": "${loai}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92a70564-8567-42ef-954b-ab727c1f999d",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${soluong}-1",
+      "targets": [],
+      "value": "soluong"
+    }, {
+      "id": "bf6b2ad5-d9df-4826-8b68-7cf0a364f4ab",
+      "comment": "",
+      "command": "if",
+      "target": "!${loai}.includes(${theloai})",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d871c68-8b31-47fb-9b59-74dc3ec63206",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return !${flag}",
+      "targets": [],
+      "value": "flag"
+    }, {
+      "id": "0d299751-dd90-480b-8992-a28f9652afd4",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0002837-a0fd-4c03-b381-8c606a192966",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fcbec4db-2e71-44a7-a201-f99d51aaa028",
+      "comment": "",
+      "command": "verify",
+      "target": "flag",
+      "targets": [],
+      "value": "true"
+    }]
+  }, {
+    "id": "e9ef29ae-577c-4c69-8efd-17e3500ce81d",
+    "name": "Test case 28",
+    "commands": [{
+      "id": "4804097e-9978-4b39-96f3-4ba458dce921",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thegioididong.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b69a7a37-aa92-4c87-b0c3-7a9fbbc26e55",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "958x1031",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21670620-bdc2-4081-b165-1a2dbdf22fbf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show-left:nth-child(9) span",
+      "targets": [
+        ["css=.show-left:nth-child(9) span", "css:finder"],
+        ["xpath=//li[9]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sim, Thẻ cào')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b7d647a-893a-4770-9955-e1a1288bec79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box-menu > li:nth-child(5) span",
+      "targets": [
+        ["css=.box-menu > li:nth-child(5) span", "css:finder"],
+        ["xpath=//section/div[2]/div/ul/li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gói data 3G/4G')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25dab826-04c2-4f6e-bc8e-9921ce35b336",
+      "comment": "",
+      "command": "click",
+      "target": "id=customer-phone",
+      "targets": [
+        ["id=customer-phone", "id"],
+        ["name=customer-phone", "name"],
+        ["css=#customer-phone", "css:finder"],
+        ["xpath=//input[@id='customer-phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[3]/div/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b43be51-8594-41ab-897e-3eba39d38047",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer-phone",
+      "targets": [
+        ["id=customer-phone", "id"],
+        ["name=customer-phone", "name"],
+        ["css=#customer-phone", "css:finder"],
+        ["xpath=//input[@id='customer-phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[3]/div/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "039219622"
+    }, {
+      "id": "6c6f82c8-0337-4a2b-b63b-1df3e005f77d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div[3]/div[2]/ul/li",
+      "targets": [
+        ["css=.no-supplier > li", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/section/div[3]/div/div/div/div[3]/div[2]/ul/li", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Vui lòng nhập số điện thoại và chọn nhà mạng để xem các gói cước')]", "xpath:innerText"]
+      ],
+      "value": "Vui lòng nhập số điện thoại và chọn nhà mạng để xem các gói cước"
+    }, {
+      "id": "c1f68026-0751-4ca4-a8d4-d15161fce221",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer-phone",
+      "targets": [
+        ["id=customer-phone", "id"],
+        ["name=customer-phone", "name"],
+        ["css=#customer-phone", "css:finder"],
+        ["xpath=//input[@id='customer-phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[3]/div/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "0392196222"
+    }, {
+      "id": "25cdf16f-1680-4fda-9c9d-a7a7223fe544",
+      "comment": "",
+      "command": "verifyNotText",
+      "target": "css=.package-wrapper",
+      "targets": [
+        ["css=.package-wrapper", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/section/div[3]/div/div/div/div[3]/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
     }]
   }],
   "suites": [{
