@@ -3089,6 +3089,654 @@
       "value": ""
     }]
   }, {
+    "id": "8bce2dba-d042-407b-9972-06a44b8ba679",
+    "name": "Test Case 23",
+    "commands": [{
+      "id": "08ad2e55-38e6-4875-8b00-548abe86cc9e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thegioididong.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "938e2e8f-1a27-4d07-be2d-b44fdbdf7c10",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x955",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d381c08-92cb-480b-be7d-ed55db165c46",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản & Đơn hàng",
+      "targets": [
+        ["linkText=Tài khoản & Đơn hàng", "linkText"],
+        ["css=.name-order", "css:finder"],
+        ["xpath=//a[contains(text(),'Tài khoản & Đơn hàng')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/lich-su-mua-hang')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tài khoản & Đơn hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76288b20-a213-4b25-8f02-dd6d8de8cf29",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Thông tin và sổ địa chỉ",
+      "targets": [
+        ["linkText=Thông tin và sổ địa chỉ", "linkText"],
+        ["css=.menuleft li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Thông tin và sổ địa chỉ')]", "xpath:link"],
+        ["xpath=//body[@id='TGDD']/section/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/lich-su-mua-hang/thong-tin-ca-nhan')]", "xpath:href"],
+        ["xpath=//section/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Thông tin và sổ địa chỉ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32daa709-e49e-4598-a063-33f044f5f16a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#profile-edit > span",
+      "targets": [
+        ["css=#profile-edit > span", "css:finder"],
+        ["xpath=//a[@id='profile-edit']/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sửa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4183d3f-def8-4952-8748-f29b2bd43084",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtFullName",
+      "targets": [
+        ["name=txtFullName", "name"],
+        ["css=.profile-name > input", "css:finder"],
+        ["xpath=//input[@name='txtFullName']", "xpath:attributes"],
+        ["xpath=//body[@id='TGDD']/section/div[2]/div/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "865519d4-64ed-4c37-a607-61d8da553aa7",
+      "comment": "",
+      "command": "click",
+      "target": "id=save-profile-edit",
+      "targets": [
+        ["id=save-profile-edit", "id"],
+        ["linkText=Lưu", "linkText"],
+        ["css=#save-profile-edit", "css:finder"],
+        ["xpath=//a[contains(text(),'Lưu')]", "xpath:link"],
+        ["xpath=//a[@id='save-profile-edit']", "xpath:attributes"],
+        ["xpath=//body[@id='TGDD']/section/div[2]/div/div/div/div[2]/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[7]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Lưu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c0a78b4-0d69-47a7-bea2-f3284aae1ab7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.popupbox_alert-content",
+      "targets": [
+        ["css=.popupbox_alert-content", "css:finder"],
+        ["xpath=//body[@id='TGDD']/div[12]/div", "xpath:idRelative"],
+        ["xpath=//div[12]/div", "xpath:position"]
+      ],
+      "value": "Cập nhật thông tin cá nhân thành công"
+    }, {
+      "id": "97d4b2ad-7795-4132-ba8e-2364554b059f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đóng",
+      "targets": [
+        ["linkText=Đóng", "linkText"],
+        ["css=.popupbox_alert-btnclose", "css:finder"],
+        ["xpath=(//a[contains(text(),'Đóng')])[2]", "xpath:link"],
+        ["xpath=//a[@onclick=\"window.location.href = '/lich-su-mua-hang/thong-tin-ca-nhan'\"]", "xpath:attributes"],
+        ["xpath=//body[@id='TGDD']/div[12]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[12]", "xpath:href"],
+        ["xpath=//div[12]/div[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cefe3ac0-0aa1-48fc-9872-7d7bd70cc92a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#add19775378 .edit > span",
+      "targets": [
+        ["css=#add19775378 .edit > span", "css:finder"],
+        ["xpath=//div[@id='add19775378']/span/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c539193-96dc-4de6-ac4a-e0e1947231d9",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtAddress",
+      "targets": [
+        ["name=txtAddress", "name"],
+        ["css=.inline:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='txtAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='frmAddress']/input[2]", "xpath:idRelative"],
+        ["xpath=//form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edbc29c8-9c93-40e6-b206-0e7921821793",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtAddress",
+      "targets": [
+        ["name=txtAddress", "name"],
+        ["css=.inline:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='txtAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='frmAddress']/input[2]", "xpath:idRelative"],
+        ["xpath=//form/input[2]", "xpath:position"]
+      ],
+      "value": "Ấp 2 An Hòa "
+    }, {
+      "id": "1fa71341-9fbb-4700-8eee-b072810bb66c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Xác nhận",
+      "targets": [
+        ["linkText=Xác nhận", "linkText"],
+        ["css=.popupbox_editAddress-btnconfirm", "css:finder"],
+        ["xpath=//a[contains(text(),'Xác nhận')]", "xpath:link"],
+        ["xpath=//a[@onclick='AddressSubmit(this)']", "xpath:attributes"],
+        ["xpath=//body[@id='TGDD']/section/div[2]/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[98]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Xác nhận')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e64c80f-2303-41d6-bfc8-9e274c54ac08",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.popupbox_alert-content",
+      "targets": [
+        ["css=.popupbox_alert-content", "css:finder"],
+        ["xpath=//body[@id='TGDD']/div[12]/div", "xpath:idRelative"],
+        ["xpath=//div[12]/div", "xpath:position"]
+      ],
+      "value": "Cập nhật thông tin cá nhân thành công"
+    }, {
+      "id": "d6c7fb1e-215c-470c-88eb-03267fccc7a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đóng",
+      "targets": [
+        ["linkText=Đóng", "linkText"],
+        ["css=.popupbox_alert-btnclose", "css:finder"],
+        ["xpath=(//a[contains(text(),'Đóng')])[2]", "xpath:link"],
+        ["xpath=//a[@onclick=\"window.location.href = '/lich-su-mua-hang/thong-tin-ca-nhan'\"]", "xpath:attributes"],
+        ["xpath=//body[@id='TGDD']/div[12]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[14]", "xpath:href"],
+        ["xpath=//div[12]/div[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f0d9432-06c8-45b5-af53-b3d3c8f1d49c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add",
+      "targets": [
+        ["css=.add", "css:finder"],
+        ["xpath=//a[@onclick='AddressEdit($(this), -1, true)']", "xpath:attributes"],
+        ["xpath=//body[@id='TGDD']/section/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[10]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d478e314-c297-4011-b633-d6053cc39ca1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.add",
+      "targets": [
+        ["css=.add", "css:finder"],
+        ["xpath=//a[@onclick='AddressEdit($(this), -1, true)']", "xpath:attributes"],
+        ["xpath=//body[@id='TGDD']/section/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[10]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6246707c-7f4b-4629-82bc-c5b53277cdb7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ddlProvince > span",
+      "targets": [
+        ["css=#ddlProvince > span", "css:finder"],
+        ["xpath=//div[@id='ddlProvince']/span", "xpath:idRelative"],
+        ["xpath=//form/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tỉnh/ Thành phố')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47b15e54-2b12-4e25-bcb6-a9866f7c84fc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hồ Chí Minh",
+      "targets": [
+        ["linkText=Hồ Chí Minh", "linkText"],
+        ["css=.item:nth-child(1) > a:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Hồ Chí Minh')])[2]", "xpath:link"],
+        ["xpath=//div[@id='ddlProvince']/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[8]", "xpath:href"],
+        ["xpath=//form/div/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8681c36f-ae50-4a9a-8540-d6533c01764a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ddlDistrict > span",
+      "targets": [
+        ["css=#ddlDistrict > span", "css:finder"],
+        ["xpath=//div[@id='ddlDistrict']/span", "xpath:idRelative"],
+        ["xpath=//form/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Quận/ Huyện')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "017f863f-686e-4c41-91af-b1c1500b74af",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TP.Thủ Đức (Gồm Q2, Q9, Q.TĐ)",
+      "targets": [
+        ["linkText=TP.Thủ Đức (Gồm Q2, Q9, Q.TĐ)", "linkText"],
+        ["css=#ddlDistrict a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'TP.Thủ Đức (Gồm Q2, Q9, Q.TĐ)')]", "xpath:link"],
+        ["xpath=//div[@id='ddlDistrict']/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[71]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TP.Thủ Đức (Gồm Q2, Q9, Q.TĐ)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d55a3aea-15e7-47f7-b21f-4439a379ff1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ddlWard > span",
+      "targets": [
+        ["css=#ddlWard > span", "css:finder"],
+        ["xpath=//div[@id='ddlWard']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Phường/ Xã')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fd36492-bb20-4e27-9949-21d6d8c72246",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9982d4ba-6987-41cf-bf34-e3e285e6d8f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Phường Tăng Nhơn Phú A",
+      "targets": [
+        ["linkText=Phường Tăng Nhơn Phú A", "linkText"],
+        ["css=#ddlWard a:nth-child(28)", "css:finder"],
+        ["xpath=//a[contains(text(),'Phường Tăng Nhơn Phú A')]", "xpath:link"],
+        ["xpath=//div[@id='ddlWard']/div/div[2]/div/a[28]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[120]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/div/a[28]", "xpath:position"],
+        ["xpath=//a[contains(.,'Phường Tăng Nhơn Phú A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39d1703e-59dd-4931-b933-d53d16f28332",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtAddress",
+      "targets": [
+        ["name=txtAddress", "name"],
+        ["css=.inline:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='txtAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='frmAddress']/input[2]", "xpath:idRelative"],
+        ["xpath=//form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "945b5e12-7326-4a21-88e6-fc235bce2ce3",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtAddress",
+      "targets": [
+        ["name=txtAddress", "name"],
+        ["css=.inline:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='txtAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='frmAddress']/input[2]", "xpath:idRelative"],
+        ["xpath=//form/input[2]", "xpath:position"]
+      ],
+      "value": "103 đường 449 khu phố 2"
+    }, {
+      "id": "3dff8d83-c072-4ca7-808e-4d9d00fe0b9d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Xác nhận",
+      "targets": [
+        ["linkText=Xác nhận", "linkText"],
+        ["css=.popupbox_editAddress-btnconfirm", "css:finder"],
+        ["xpath=//a[contains(text(),'Xác nhận')]", "xpath:link"],
+        ["xpath=//a[@onclick='AddressSubmit(this)']", "xpath:attributes"],
+        ["xpath=//body[@id='TGDD']/section/div[2]/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[127]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Xác nhận')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7116671a-b8df-4e61-98f2-99045e53b4f4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.popupbox_alert-content",
+      "targets": [
+        ["css=.popupbox_alert-content", "css:finder"],
+        ["xpath=//body[@id='TGDD']/div[12]/div", "xpath:idRelative"],
+        ["xpath=//div[12]/div", "xpath:position"]
+      ],
+      "value": "Thêm mới thông tin cá nhân thành công"
+    }, {
+      "id": "761735d0-1028-47e4-9418-4e4449242362",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đóng",
+      "targets": [
+        ["linkText=Đóng", "linkText"],
+        ["css=.popupbox_alert-btnclose", "css:finder"],
+        ["xpath=(//a[contains(text(),'Đóng')])[2]", "xpath:link"],
+        ["xpath=//a[@onclick=\"window.location.href = '/lich-su-mua-hang/thong-tin-ca-nhan'\"]", "xpath:attributes"],
+        ["xpath=//body[@id='TGDD']/div[12]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[14]", "xpath:href"],
+        ["xpath=//div[12]/div[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6372de48-bf7a-4d19-af3d-fe6abd3dc90d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Xóa",
+      "targets": [
+        ["linkText=Xóa", "linkText"],
+        ["css=#add54529698 a:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='add54529698']/span/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:AddressDelete(54529698, true)')]", "xpath:href"],
+        ["xpath=//span/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Xóa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c50b277-eb4a-4865-86aa-64c0f90b12bf",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.popupbox_alert-content",
+      "targets": [
+        ["css=.popupbox_alert-content", "css:finder"],
+        ["xpath=//body[@id='TGDD']/div[12]/div", "xpath:idRelative"],
+        ["xpath=//div[12]/div", "xpath:position"]
+      ],
+      "value": "Bạn có muốn xóa địa chỉ nhận hàng này ?"
+    }, {
+      "id": "0b2bb0d1-7f9a-4ac0-8f14-819baa9b7ded",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Xác nhận",
+      "targets": [
+        ["linkText=Xác nhận", "linkText"],
+        ["css=.popupbox_alert-btnconfirm", "css:finder"],
+        ["xpath=//a[contains(text(),'Xác nhận')]", "xpath:link"],
+        ["xpath=//a[@onclick='AddressDelete(54529692)']", "xpath:attributes"],
+        ["xpath=//body[@id='TGDD']/div[12]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[12]", "xpath:href"],
+        ["xpath=//div[12]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Xác nhận')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6b957c5b-33a9-4035-b3b9-806d41188ac9",
+    "name": "Test Case 24",
+    "commands": [{
+      "id": "a9d20e3b-9583-44e9-9162-3f20f30b3237",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thegioididong.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89e104a2-e0da-4b33-b1e1-8be6fa0eef59",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x955",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96c0ecb6-1c55-4a36-bfa9-99a86a0e48ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.divitem:nth-child(1) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1da44ce4-e1a3-47f4-ab31-93db6f0e950b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu:nth-child(1) > li:nth-child(6) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2804b3b3-a162-4fcb-9878-631a236e6f0c",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=/html/body/section[1]/aside[1]/ul/li",
+      "targets": [],
+      "value": "count"
+    }, {
+      "id": "e0d93d96-05fa-41c3-8893-8fc2ee68e5f7",
+      "comment": "",
+      "command": "echo",
+      "target": "${count}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f254f5d-524a-47f7-a424-a61fc4e81e90",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1==1",
+      "targets": [],
+      "value": "sosanh"
+    }, {
+      "id": "059f296d-1a20-46f8-9b2b-b8f498e1f4e9",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "item"
+    }, {
+      "id": "76b6003d-bb7f-44fa-9c47-a59202a78dd6",
+      "comment": "",
+      "command": "while",
+      "target": "${item}<=${count}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c327402-3f0e-412f-9ae0-c2235f2c566a",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=li:nth-child(${item}) b",
+      "targets": [
+        ["css=li:nth-child(1) b", "css:finder"],
+        ["xpath=//aside/b", "xpath:position"],
+        ["xpath=//b[contains(.,'04/01')]", "xpath:innerText"]
+      ],
+      "value": "sk1"
+    }, {
+      "id": "6b6a424d-1fc5-49e0-8d3c-5b5f62b33b1d",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${sk1}+ \"/\" + new Date().getFullYear()",
+      "targets": [],
+      "value": "sk1"
+    }, {
+      "id": "38c1d1b0-3705-4dc4-9f42-e5644195ec01",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${sk1}.replace(/(\\d{2})\\/(\\d{2})\\/(\\d{4})/, \"$2/$1/$3\")",
+      "targets": [],
+      "value": "sk1"
+    }, {
+      "id": "17cc656c-b154-4845-8cc7-34a0fb48c93c",
+      "comment": "",
+      "command": "echo",
+      "target": "${sk1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01db3e0b-9a01-4672-a30b-e118d46172b8",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return new Date().getTime() >= new Date(${sk1}).getTime()",
+      "targets": [],
+      "value": "sosanh"
+    }, {
+      "id": "a09dff6b-31a0-4da7-ab8a-ee51eb8e7c53",
+      "comment": "",
+      "command": "echo",
+      "target": "${sosanh}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a442dac-bb95-477b-970a-d9299cd7307a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${item}+1",
+      "targets": [],
+      "value": "item"
+    }, {
+      "id": "5a9c1ce3-7f03-4edf-b57e-3a9d682d5ec4",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e5919c0-20b6-44a7-bce4-96b2bf8704a9",
+      "comment": "",
+      "command": "verify",
+      "target": "sosanh",
+      "targets": [],
+      "value": "false"
+    }]
+  }, {
+    "id": "461ad0c8-3c99-4ab7-b8b1-76c7f5264664",
+    "name": "Test Case 29",
+    "commands": [{
+      "id": "fbe6fc62-510d-4a79-8eac-f471fa3b6def",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thegioididong.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29168fcd-6733-434b-a522-338668693717",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x955",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77279052-20b6-4554-8611-a5774a29cb4d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản & Đơn hàng",
+      "targets": [
+        ["linkText=Tài khoản & Đơn hàng", "linkText"],
+        ["css=.name-order", "css:finder"],
+        ["xpath=//a[contains(text(),'Tài khoản & Đơn hàng')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/lich-su-mua-hang')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tài khoản & Đơn hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04b0d472-a48b-41d6-8de3-501a3e1ba0a8",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"0397312844\"",
+      "targets": [],
+      "value": "sdt"
+    }, {
+      "id": "b3344a36-0277-4d3a-a2a0-9bb97487df62",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtPhoneNumber",
+      "targets": [
+        ["id=txtPhoneNumber", "id"],
+        ["name=txtPhoneNumber", "name"],
+        ["css=#txtPhoneNumber", "css:finder"],
+        ["xpath=//input[@id='txtPhoneNumber']", "xpath:attributes"],
+        ["xpath=//form[@id='frmGetVerifyCode']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81c8dd13-8565-4da8-9622-1f8c014d51d2",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtPhoneNumber",
+      "targets": [
+        ["id=txtPhoneNumber", "id"],
+        ["name=txtPhoneNumber", "name"],
+        ["css=#txtPhoneNumber", "css:finder"],
+        ["xpath=//input[@id='txtPhoneNumber']", "xpath:attributes"],
+        ["xpath=//form[@id='frmGetVerifyCode']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "${sdt}"
+    }, {
+      "id": "ad69b200-fc76-4a68-8f4b-4a976cbf44a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#frmGetVerifyCode > .btn",
+      "targets": [
+        ["css=#frmGetVerifyCode > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='frmGetVerifyCode']/button", "xpath:idRelative"],
+        ["xpath=//section/div/div/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e0c368f-76bb-42b0-b24a-f6ec5a5b9b29",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.s1",
+      "targets": [
+        ["css=.s1", "css:finder"],
+        ["xpath=//body[@id='TGDD']/section/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Mã xác nhận đã được gửi đến ứng dụng QUÀ TẶNG VIP của số điện thoại 0397312844')]", "xpath:innerText"]
+      ],
+      "value": "Mã xác nhận đã được gửi đến ứng dụng QUÀ TẶNG VIP của số điện thoại 0397312844"
+    }, {
+      "id": "8ffce109-8770-423b-a760-36934f70bcf9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
     "id": "f6bddb0a-beac-4d55-82c5-65a575e97518",
     "name": "Test Case 20",
     "commands": [{
