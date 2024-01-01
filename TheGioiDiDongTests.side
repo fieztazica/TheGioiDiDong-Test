@@ -3656,6 +3656,224 @@
       ],
       "value": "Mã xác nhận đã được gửi đến ứng dụng QUÀ TẶNG VIP của số điện thoại 0397312844"
     }]
+  }, {
+    "id": "b307298c-87e1-46e9-9e60-571f00e879c7",
+    "name": "Test Case 30",
+    "commands": [{
+      "id": "4bec5694-47c3-432b-9382-71ef02cf0c8a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thegioididong.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b04efe4-8336-4628-9c57-3774d79ecd64",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x955",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afd9038f-6835-41d5-b1b8-d9681f308f45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-menu > li:nth-child(1) span",
+      "targets": [
+        ["css=.main-menu > li:nth-child(1) span", "css:finder"],
+        ["xpath=//li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Điện thoại')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0455a237-7357-4af5-bf94-06034d7ac774",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(1) .thumb",
+      "targets": [
+        ["css=.item:nth-child(1) .thumb", "css:finder"],
+        ["xpath=//img[@alt='iPhone 15 Pro Max']", "xpath:img"],
+        ["xpath=//section[@id='categoryPage']/div[3]/ul/li/a/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8db3f75d-7682-4c87-92d4-7ca73c637f05",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "637880cc-63ce-4250-9e5c-26ba1e3a9d50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pay-taichinh > span",
+      "targets": [
+        ["css=.pay-taichinh > span", "css:finder"],
+        ["xpath=//div[3]/a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Duyệt hồ sơ trong 5 phút')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dd1da64-d2ce-4501-a0a5-89edcf27dc8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-option:nth-child(1) > button",
+      "targets": [
+        ["css=.select-option:nth-child(1) > button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'60% (20.094.000₫)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdb9cd3f-6654-4d37-a817-66d0a0ee9dbc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-option-package > span:nth-child(3)",
+      "targets": [
+        ["css=.select-option-package > span:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[3]/div/div/div/span[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'50% (16.745.000₫)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0c4458f-2267-4a18-8c50-96361f5cfde5",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[3]/div[2]/table/tr[3]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'16.745.000₫')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8b4cbc2-bc43-414a-bd27-a87b14ec28e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(5) > td:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[3]/div[2]/table/tr[5]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'2.055.000₫')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b36d291-bade-48f4-b647-8939a03984b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5)",
+      "targets": [
+        ["css=tr:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[3]/div[2]/table/tr[5]", "xpath:idRelative"],
+        ["xpath=//tr[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb7f4ee8-c6e3-4883-be69-4a8869321212",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) > td:nth-child(2) > span",
+      "targets": [
+        ["css=tr:nth-child(5) > td:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[3]/div[2]/table/tr[5]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'2.055.000₫')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85329142-d337-470e-8468-a3b1f952f109",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(5) > td:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[3]/div[2]/table/tr[5]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'2.055.000₫')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc2b233f-59ed-4aed-b97e-413330bf2066",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=tr:nth-child(5) > td:nth-child(2) > span",
+      "targets": [
+        ["css=tr:nth-child(5) > td:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[3]/div[2]/table/tr[5]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'2.055.000₫')]", "xpath:innerText"]
+      ],
+      "value": "gia"
+    }, {
+      "id": "2d4a6c25-b2db-4a3c-aadb-e515811c42b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-option:nth-child(1) > button",
+      "targets": [
+        ["css=.select-option:nth-child(1) > button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'50% (16.745.000₫)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b323cc4-75f7-4deb-8902-9866188b0b72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-option-package > span:nth-child(4)",
+      "targets": [
+        ["css=.select-option-package > span:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[3]/div/div/div/span[4]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/span[4]", "xpath:position"],
+        ["xpath=//span[contains(.,'60% (20.094.000₫)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4538d49c-4d52-4f31-bbd2-7a2574c08fcf",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(5) > td:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[3]/div[2]/table/tr[5]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'1.646.000₫')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eeb605ab-a35e-46ce-b389-87b9ca57e355",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=tr:nth-child(5) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(5) > td:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]/div[3]/div[2]/table/tr[5]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'1.646.000₫')]", "xpath:innerText"]
+      ],
+      "value": "gia1"
+    }, {
+      "id": "cd6623a0-eec0-444c-a09b-cc9a2367307e",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseInt(${gia}.replace(/\\./g, '')) == parseFloat(${gia1}.replace(/\\./g, ''))",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "45d831dd-54be-40ca-9690-74b3bd2bda25",
+      "comment": "",
+      "command": "verify",
+      "target": "result",
+      "targets": [],
+      "value": "false"
+    }]
   }],
   "suites": [{
     "id": "493ce2f3-0f58-4e24-9aa2-48776da49361",
