@@ -3474,6 +3474,20 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "348db7df-51fd-4a47-b91a-c953193cdf98",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e22d4fa9-b150-4741-b991-214c96c60951",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "bf03d95e-67f1-48f3-8826-4a4c5bd8cc9f",
       "comment": "",
       "command": "click",
@@ -3514,6 +3528,20 @@
       "value": ""
     }, {
       "id": "619157c9-a8ad-41e1-8a74-b5687628b59e",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a731adef-3ff6-4e17-9006-282c849debb4",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13ca993b-de1b-4ad1-92cf-67bdf9c20d4f",
       "comment": "",
       "command": "",
       "target": "",
@@ -3940,6 +3968,20 @@
       ],
       "value": ""
     }, {
+      "id": "df9dff3e-894e-4203-9b47-b4480166e64c",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5edf3ef-b5a5-4c75-81a4-cacc70d28f1b",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "7734a567-8218-4498-b09a-dd39245b54fc",
       "comment": "",
       "command": "click",
@@ -4044,7 +4086,7 @@
       "id": "f17152e2-48ac-43fc-ba02-a7dbeca360e7",
       "comment": "",
       "command": "storeText",
-      "target": "xpath=//div[2]/span[2]",
+      "target": "css=.temp-total-money",
       "targets": [
         ["css=.temp-total-money", "css:finder"],
         ["xpath=//div[@id='app']/section/div[2]/div[2]/span[2]", "xpath:idRelative"],
@@ -4084,21 +4126,7 @@
       ],
       "value": ""
     }, {
-      "id": "9a0db68b-26c9-4ff9-b66b-a70a0935d4e0",
-      "comment": "",
-      "command": "",
-      "target": "",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "0c370063-7810-4740-9a18-daf574e00548",
-      "comment": "",
-      "command": "",
-      "target": "",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "023bbb38-5355-4707-a9ed-0cf6fb1bb620",
       "comment": "",
       "command": "",
       "target": "",
@@ -4119,7 +4147,7 @@
     }, {
       "id": "af62f729-9586-4650-bb56-2bf27977af17",
       "comment": "",
-      "command": "//echo",
+      "command": "echo",
       "target": "${giadoi}",
       "targets": [],
       "value": ""
@@ -4136,7 +4164,7 @@
       "command": "verify",
       "target": "check",
       "targets": [],
-      "value": "false"
+      "value": "true"
     }, {
       "id": "1381e955-988a-403c-923b-48e72b1bc522",
       "comment": "",
