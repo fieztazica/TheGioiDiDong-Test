@@ -2307,7 +2307,7 @@
     }]
   }, {
     "id": "b7e0b86b-66e1-4399-a5e6-357910a1ad0d",
-    "name": "Test case 17",
+    "name": "Test Case 17",
     "commands": [{
       "id": "43ce58a8-36f5-4776-a5d7-c3443c0a1c3f",
       "comment": "",
@@ -2482,7 +2482,7 @@
     }]
   }, {
     "id": "92f7af6c-12a2-4aee-b35b-8520be5f21d6",
-    "name": "Test case 15",
+    "name": "Test Case 15",
     "commands": [{
       "id": "770aa691-d6f5-4be7-8d9d-8f524b01f86f",
       "comment": "",
@@ -2699,7 +2699,7 @@
     }]
   }, {
     "id": "c29be97a-27a5-4beb-b9bb-b7346dff89fb",
-    "name": "Test case 16",
+    "name": "Test Case 16",
     "commands": [{
       "id": "68c72936-3b8e-4793-8528-7be7bc80f704",
       "comment": "",
@@ -2921,7 +2921,7 @@
     }]
   }, {
     "id": "52fb541b-e373-4889-9e79-7e8aefd9dd35",
-    "name": "Test case 14",
+    "name": "Test Case 14",
     "commands": [{
       "id": "a500bb86-5d65-4f7a-aa76-f00606ba0521",
       "comment": "",
@@ -3088,7 +3088,7 @@
       "targets": [],
       "value": ""
     }]
-  },{
+  }, {
     "id": "f6bddb0a-beac-4d55-82c5-65a575e97518",
     "name": "Test Case 20",
     "commands": [{
@@ -3844,7 +3844,7 @@
     }]
   }, {
     "id": "a2091c94-8306-4f9f-8f21-f10d9416a7ef",
-    "name": "Test case 18",
+    "name": "Test Case 18",
     "commands": [{
       "id": "6ecf852a-a3db-44d7-9f35-d195690db0ae",
       "comment": "",
@@ -3967,7 +3967,7 @@
     }]
   }, {
     "id": "5b16bea2-0464-476e-8f3f-631709c6926d",
-    "name": "Test case 19",
+    "name": "Test Case 19",
     "commands": [{
       "id": "42a848ff-c071-492b-8e65-4e5876b11740",
       "comment": "",
@@ -4190,7 +4190,7 @@
     }]
   }, {
     "id": "8c0f8010-01d3-421b-90d9-5dc056af5d41",
-    "name": "Test case 26",
+    "name": "Test Case 26",
     "commands": [{
       "id": "ae9d08b7-af51-4c20-b579-70b762bd22f7",
       "comment": "",
@@ -4288,7 +4288,7 @@
     }]
   }, {
     "id": "420f3b0e-2b4c-4977-b214-ce74a5586d8a",
-    "name": "Test case 27",
+    "name": "Test Case 27",
     "commands": [{
       "id": "5fb97803-e491-4103-8974-97cffb6ee631",
       "comment": "",
@@ -4438,7 +4438,7 @@
     }]
   }, {
     "id": "e9ef29ae-577c-4c69-8efd-17e3500ce81d",
-    "name": "Test case 28",
+    "name": "Test Case 28",
     "commands": [{
       "id": "4804097e-9978-4b39-96f3-4ba458dce921",
       "comment": "",
